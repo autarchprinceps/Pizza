@@ -1,1 +1,307 @@
-﻿ 
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="5f6f2d93-a946-4efb-a467-7cd97d560d4d" name="Bridge" linkedPackageId="dd1b5602-837d-408a-903d-9290664c2233" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="c0f36ea3-b025-4db2-afed-936f4ea1bed5">
+      <profileInstance Id="ca8b56b5-9250-40b8-8e73-333c77652e21" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="75b26594-89ab-4ad5-90b5-be835e7641b3">
+      <profileInstance Id="05e733e6-b6c3-41c6-bf22-0d9af874da4a" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <referencedType Id="1f31769c-a9a4-4a14-b352-b4ccfe8c09b1" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="1e2ce01c-46e9-49b4-b940-2aaeff0c9e5c" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
+        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="11847033-7d01-4eb1-a9f2-e0252da6e356" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
+        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="7376d5cb-f7a8-46a0-8140-f2833c930459" name="Pizzeria" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="bc2ad8f8-3f51-474e-a827-3bbbacb09799" />
+        <ownedOperations>
+          <operation Id="b69f1a1c-a646-44dd-9374-62862ebee697" name="teig" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="5ff6cbab-e8d2-40d7-ab5c-3032ef9dd5fa" />
+          </operation>
+          <operation Id="8306d769-d7aa-45c6-a9ff-184242d3c6e5" name="teigPreis" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="2111d786-f499-4690-9196-8e498a3216e2" />
+          </operation>
+          <operation Id="38d97c0b-8f47-4da7-8309-cb238071f219" name="tomatensoße" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="7e57f450-5e63-416a-a822-a5f8597471e6" />
+          </operation>
+          <operation Id="1023e15e-5995-4b07-9779-b8c3f91cbf83" name="tomatensoßePreis" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d7e31615-edd5-42ae-b563-60322a8e656c" />
+          </operation>
+          <operation Id="12925ff4-1e7e-4663-af35-c7a7fb30a493" name="käse" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="445128cc-4695-4582-91c1-9ac57acdc351" />
+          </operation>
+          <operation Id="90af003e-4256-4bbb-a6a7-ca6186cea651" name="salami" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a874e63f-6120-44d4-bf2c-673bbe2649f7" />
+          </operation>
+          <operation Id="c8bd0005-10ba-4bab-8ae5-0e7f6d49818b" name="käsePreis" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="013689b6-0c70-4502-b364-36afeaa66e3f" />
+          </operation>
+          <operation Id="fabec711-8482-4a2f-b2dc-b291187b363f" name="salamiPreis" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="6e7e0761-fb9a-41b3-ab26-cca9683a8899" />
+          </operation>
+          <operation Id="b651c3b7-b475-4b75-8063-179e0422bda6" name="schinken" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="8f20ebbe-de52-4c7e-b9bc-1bd671cd9b1d" />
+          </operation>
+          <operation Id="99af172a-53ee-4148-a728-b69300f5a998" name="schinkenPreis" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d8b81a2d-db41-4b01-928e-13cd4dfbd4ba" />
+          </operation>
+          <operation Id="aac3f22b-dd68-4f27-912f-aa575c2d096b" name="paprika" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="61fb0eb4-01de-4432-ba64-d0360359acee" />
+          </operation>
+          <operation Id="86f693c4-1ccb-4ca1-bf3c-8e876f26dd98" name="paprikaPreis" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ade50f8d-9db4-46d2-8bf0-e314f3e0d8c6" />
+          </operation>
+          <operation Id="c6d320aa-734a-49a9-b6a7-64bf44b4aed5" name="sardellen" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="911cded2-584b-4ac2-b39f-e1c547f8514d" />
+          </operation>
+          <operation Id="06e77005-0690-451e-b5e8-c5fda5d2b4ba" name="sardellenPreis" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="c916a4f3-8ac7-46fe-88fa-95c66d5c6fb2" />
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="98e4092d-ef9c-4f8d-b6fc-bdb4755e009b" name="Toni's" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="ed4f6ea7-74ae-4b5b-b899-3b670bbfad0c" />
+        <suppliersInternal>
+          <interfaceRealization Id="ab4cfc09-8717-49c3-b203-a4e31a08ce4d">
+            <interfaceMoniker Id="7376d5cb-f7a8-46a0-8140-f2833c930459" LastKnownName="Pizzeria" />
+            <elementDefinition Id="2ad3a763-31e6-46b9-9505-1c07958ed0c4" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation Id="7b130ec9-f737-4a4e-a23d-deb1891299be" name="teig" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="61900fe0-a7a9-4fa7-9b1f-e8391b9b6700" />
+          </operation>
+          <operation Id="beaa086b-b174-4762-a67b-a5f2479f596f" name="teigPreis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="602c33c4-51b1-426f-aae7-28dbf3c3e2af" />
+          </operation>
+          <operation Id="2317007b-45fd-4d74-9bb4-e2d30d5fcf6d" name="tomatensoße" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="1c17c1a9-ad82-4783-af45-d99f2e53c426" />
+          </operation>
+          <operation Id="5e9a2a1f-7c69-43a2-9514-9e03c2324f14" name="tomatensoßePreis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="046cc42e-5d0b-4303-9271-3f66102315f2" />
+          </operation>
+          <operation Id="24996184-bd6d-4017-9710-3e1146073165" name="käse" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="c2074c0f-4fe0-4c40-9122-72c64a73d868" />
+          </operation>
+          <operation Id="057edd0f-929c-4a3b-bba1-c66b983f8a68" name="salami" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d07a6e42-90bf-45af-8999-1f6796e3d963" />
+          </operation>
+          <operation Id="26113984-8a74-4f05-90fe-7fd7d924ac20" name="käsePreis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="01eafca7-cff9-4261-be76-aa7269d563b9" />
+          </operation>
+          <operation Id="d26f8b22-4285-45dd-9592-d3ee788b1452" name="salamiPreis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="313244f4-88fc-4b12-821f-35f0c7138d2a" />
+          </operation>
+          <operation Id="d3f2db14-4f74-4d8b-bb2c-6e5f642e579c" name="schinken" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="481f44d9-1b04-4933-9b25-4cdab354a70b" />
+          </operation>
+          <operation Id="7b09ecf2-45bc-4330-bd49-d3c363d1d452" name="schinkenPreis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="b1a1be18-028a-4c73-afb5-d0504c5f252a" />
+          </operation>
+          <operation Id="3969ac31-3810-40bf-b2e6-fda841abdc7b" name="paprika" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="12d55419-7128-40ad-99e0-e32010d61cb6" />
+          </operation>
+          <operation Id="6aa687d3-cec0-4671-a6d7-07055711557f" name="paprikaPreis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="1765c63c-eec0-4789-add2-f2bc661706f2" />
+          </operation>
+          <operation Id="8334f284-1de7-4415-a0fe-acb491cbaed2" name="sardellen" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="5841a7f1-5c40-4822-9d1e-62d80ca49809" />
+          </operation>
+          <operation Id="0c037d8d-b808-4448-84f3-b38e60e283d7" name="sardellenPreis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="f57325c2-322c-4e2f-9b73-8c3fc91dad07" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="31cd3679-57da-4887-8530-0bd25542b60d" name="American Pizzas" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="4df2b50c-b3e0-4a0c-962a-22600efd6bc9" />
+        <suppliersInternal>
+          <interfaceRealization Id="46476c83-129e-497a-8eba-fe86a68f6e29">
+            <interfaceMoniker Id="7376d5cb-f7a8-46a0-8140-f2833c930459" LastKnownName="Pizzeria" />
+            <elementDefinition Id="2bd4799c-7b3f-4d7a-83f0-f88ef06d4b80" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation Id="3eb611a8-e180-4870-a7e9-f05318c3d4f8" name="teig" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="af5c6d46-d0ea-40a1-8ded-23564a0b2042" />
+          </operation>
+          <operation Id="96fd77fe-8212-45ba-a003-a2a56ad409b4" name="teigPreis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="6e965258-75d1-48e7-a47f-dcf5929c1337" />
+          </operation>
+          <operation Id="1e0fd7c2-0ba5-4419-bd6e-b28d14a0fbef" name="tomatensoße" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="14eb649c-0712-40e3-8f46-f178a7cd1679" />
+          </operation>
+          <operation Id="8d13a6e1-92b9-4f7b-be53-ea07a12e995b" name="tomatensoßePreis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="c92d5245-f8ce-42b0-9590-8e9192b54b2d" />
+          </operation>
+          <operation Id="26220108-b77c-44e7-837a-40dd927f5e9f" name="käse" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="601fdd1b-d06f-4eca-b423-1f33ff04eb25" />
+          </operation>
+          <operation Id="3b55ce8a-5658-43a4-86a1-3ad1089504df" name="salami" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="0a35b1a9-7acb-43e0-9463-a7b0de85cb5a" />
+          </operation>
+          <operation Id="d075919c-f106-4eeb-9b8c-76c62727b210" name="käsePreis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="64e0b654-a217-482f-8dea-5cb3899344da" />
+          </operation>
+          <operation Id="baba7d8d-36d4-4a46-aacb-696a387ec076" name="salamiPreis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="0815535b-a852-4930-832d-9fecb514009b" />
+          </operation>
+          <operation Id="4a16f9b2-5c66-4eb3-9769-2ecc82ad1e10" name="schinken" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="6ba941c3-94b3-4d4f-9d34-c141793a78e6" />
+          </operation>
+          <operation Id="5c1c9bdf-135b-45de-810e-8191c75f08a5" name="schinkenPreis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="f85dd73d-1653-4e3b-afaf-1a9a3f46e55c" />
+          </operation>
+          <operation Id="f1333ef4-f91a-447d-a14d-900d97b09180" name="paprika" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a3379d40-a30d-48fc-baab-2a465f9a2355" />
+          </operation>
+          <operation Id="d54d6556-17a2-448f-aa96-829e80a41b8c" name="paprikaPreis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="4257cdde-9093-4253-873f-b6fe99e11aa7" />
+          </operation>
+          <operation Id="3412604f-7b05-4a29-86e6-d90be183c581" name="sardellen" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="accc2c36-93a0-482a-9ea2-1a9221be35cd" />
+          </operation>
+          <operation Id="d1b5cc01-bf3e-45ec-9712-fb7955764664" name="sardellenPreis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="47c96c29-9ae2-47e8-a633-58ad7f47ed19" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="15fc1cb7-065d-4cd3-8ddb-7788bdd2245c" name="Pizza" isAbstract="true" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="a28da954-6351-4b9b-b8b3-f384c9ab6726" />
+        <ownedOperationsInternal>
+          <operation Id="3cc3c1e2-d530-46a6-9352-103453aac69f" name="rezept" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d59d00b9-0149-4148-b5e4-cb671feeba5a" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="c5cdf24e-e966-4d6f-b95c-5ea81a68df7f" direction="Return">
+                  <elementDefinition Id="ec2c8cdc-2bb0-4c0d-9612-6b7825e5b7a0" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1f31769c-a9a4-4a14-b352-b4ccfe8c09b1" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="65b4e287-d6e4-4053-b8eb-9ca3ff52d5f1" name="kosten" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="3ba8237f-441a-463c-983f-5de78bcb8e76" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="cddd9936-79a3-4190-8f52-cc84d45de07b" direction="Return">
+                  <elementDefinition Id="781d3f9f-4d71-48a7-8061-7ffe2c45d97b" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1e2ce01c-46e9-49b4-b940-2aaeff0c9e5c" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="dc1223bb-b9e9-49fc-99fd-1a8bc722e998" name="Napoli" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d2a3fdf7-862c-4d40-acc1-f35a16f2fb31" />
+        <generalsInternal>
+          <generalization Id="98af7d11-cd36-40c6-be0d-21473b910afc" isSubstitutable="false">
+            <classMoniker Id="15fc1cb7-065d-4cd3-8ddb-7788bdd2245c" LastKnownName="Pizza" />
+            <elementDefinition Id="4f1388de-3336-4624-be2e-6fcee98a839e" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="d1c15762-9bba-44d7-8e4a-0894664bdbb6" name="kosten" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="2070a5c2-f879-41a1-9984-be346b39b70c" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="cbd75d82-15bb-492a-b575-5c972260b07d" direction="Return">
+                  <elementDefinition Id="7794c23e-3d41-403b-b5ec-bc5a68065c83" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="11847033-7d01-4eb1-a9f2-e0252da6e356" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="1a839265-2865-4205-bdd7-b1931664a1e7" name="rezept" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="938875bd-244b-4269-98f8-4ad241dae068" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="abdaba2b-037f-46b5-88bd-c6faa1b5c58c" direction="Return" isUnique="false">
+                  <elementDefinition Id="43391ce4-83b1-4b7b-9917-894c7adb297e" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1f31769c-a9a4-4a14-b352-b4ccfe8c09b1" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="1821b65c-a415-4610-998b-cf491bd2ff8b" name="Margherita" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="bf7becbd-f2d5-4df3-a126-61575ace273a" />
+        <generalsInternal>
+          <generalization Id="ef0ed327-b16a-4eaf-81a0-a09f076efee9" isSubstitutable="false">
+            <classMoniker Id="15fc1cb7-065d-4cd3-8ddb-7788bdd2245c" LastKnownName="Pizza" />
+            <elementDefinition Id="85671292-e717-447b-9e39-c924e2e5c0e5" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="a43b7dc1-0008-4974-98b1-43c19755231b" name="kosten" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="6ed2fa18-893c-46c0-8f07-2e1f47b185d5" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="26197d46-1d7f-4731-9242-bc4ed0f59b00" direction="Return" isUnique="false">
+                  <elementDefinition Id="b029926a-be46-4314-8b80-3f70188e421c" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1e2ce01c-46e9-49b4-b940-2aaeff0c9e5c" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="74cc93d0-5ade-4a55-a6b3-8dd1d412a78a" name="rezept" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="1564f6b9-f3de-4d81-abdb-c4c35463d5ad" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="e2987acf-feb6-45fc-bc48-d17059164906" direction="Return" isUnique="false">
+                  <elementDefinition Id="9ad13565-b091-4735-afa9-21cebb893720" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1f31769c-a9a4-4a14-b352-b4ccfe8c09b1" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="dd1b5602-837d-408a-903d-9290664c2233" name="Bridge">
+    <elementDefinition Id="27cf1625-6c87-4f71-8e54-b2467da74cba" />
+  </package>
+</logicalClassDesignerModel>

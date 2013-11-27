@@ -17,28 +17,606 @@
         name="StandardProfileL3" />
     </packageHasProfileInstances>
   </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="bc2ad8f8-3f51-474e-a827-3bbbacb09799"
+        name="Pizzeria"
+        isAbstract="false"
+        isLeaf="false">
+        <ownedOperations>
+          <operation
+            Id="5ff6cbab-e8d2-40d7-ab5c-3032ef9dd5fa"
+            name="teig"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="2111d786-f499-4690-9196-8e498a3216e2"
+            name="teigPreis"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="7e57f450-5e63-416a-a822-a5f8597471e6"
+            name="tomatensoße"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="d7e31615-edd5-42ae-b563-60322a8e656c"
+            name="tomatensoßePreis"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="445128cc-4695-4582-91c1-9ac57acdc351"
+            name="käse"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="a874e63f-6120-44d4-bf2c-673bbe2649f7"
+            name="salami"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="013689b6-0c70-4502-b364-36afeaa66e3f"
+            name="käsePreis"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="6e7e0761-fb9a-41b3-ab26-cca9683a8899"
+            name="salamiPreis"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="8f20ebbe-de52-4c7e-b9bc-1bd671cd9b1d"
+            name="schinken"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="d8b81a2d-db41-4b01-928e-13cd4dfbd4ba"
+            name="schinkenPreis"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="61fb0eb4-01de-4432-ba64-d0360359acee"
+            name="paprika"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="ade50f8d-9db4-46d2-8bf0-e314f3e0d8c6"
+            name="paprikaPreis"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="911cded2-584b-4ac2-b39f-e1c547f8514d"
+            name="sardellen"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="c916a4f3-8ac7-46fe-88fa-95c66d5c6fb2"
+            name="sardellenPreis"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ed4f6ea7-74ae-4b5b-b899-3b670bbfad0c"
+        name="Toni's"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="2ad3a763-31e6-46b9-9505-1c07958ed0c4">
+            <interfaceMoniker
+              Id="bc2ad8f8-3f51-474e-a827-3bbbacb09799"
+              LastKnownName="Pizzeria"
+              LastKnownLocation="Bridge.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="61900fe0-a7a9-4fa7-9b1f-e8391b9b6700"
+            name="teig"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="602c33c4-51b1-426f-aae7-28dbf3c3e2af"
+            name="teigPreis"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="1c17c1a9-ad82-4783-af45-d99f2e53c426"
+            name="tomatensoße"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="046cc42e-5d0b-4303-9271-3f66102315f2"
+            name="tomatensoßePreis"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="c2074c0f-4fe0-4c40-9122-72c64a73d868"
+            name="käse"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="d07a6e42-90bf-45af-8999-1f6796e3d963"
+            name="salami"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="01eafca7-cff9-4261-be76-aa7269d563b9"
+            name="käsePreis"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="313244f4-88fc-4b12-821f-35f0c7138d2a"
+            name="salamiPreis"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="481f44d9-1b04-4933-9b25-4cdab354a70b"
+            name="schinken"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="b1a1be18-028a-4c73-afb5-d0504c5f252a"
+            name="schinkenPreis"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="12d55419-7128-40ad-99e0-e32010d61cb6"
+            name="paprika"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="1765c63c-eec0-4789-add2-f2bc661706f2"
+            name="paprikaPreis"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="5841a7f1-5c40-4822-9d1e-62d80ca49809"
+            name="sardellen"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="f57325c2-322c-4e2f-9b73-8c3fc91dad07"
+            name="sardellenPreis"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="4df2b50c-b3e0-4a0c-962a-22600efd6bc9"
+        name="American Pizzas"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="2bd4799c-7b3f-4d7a-83f0-f88ef06d4b80">
+            <interfaceMoniker
+              Id="bc2ad8f8-3f51-474e-a827-3bbbacb09799"
+              LastKnownName="Pizzeria"
+              LastKnownLocation="Bridge.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="af5c6d46-d0ea-40a1-8ded-23564a0b2042"
+            name="teig"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="6e965258-75d1-48e7-a47f-dcf5929c1337"
+            name="teigPreis"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="14eb649c-0712-40e3-8f46-f178a7cd1679"
+            name="tomatensoße"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="c92d5245-f8ce-42b0-9590-8e9192b54b2d"
+            name="tomatensoßePreis"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="601fdd1b-d06f-4eca-b423-1f33ff04eb25"
+            name="käse"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="0a35b1a9-7acb-43e0-9463-a7b0de85cb5a"
+            name="salami"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="64e0b654-a217-482f-8dea-5cb3899344da"
+            name="käsePreis"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="0815535b-a852-4930-832d-9fecb514009b"
+            name="salamiPreis"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="6ba941c3-94b3-4d4f-9d34-c141793a78e6"
+            name="schinken"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="f85dd73d-1653-4e3b-afaf-1a9a3f46e55c"
+            name="schinkenPreis"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="a3379d40-a30d-48fc-baab-2a465f9a2355"
+            name="paprika"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="4257cdde-9093-4253-873f-b6fe99e11aa7"
+            name="paprikaPreis"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="accc2c36-93a0-482a-9ea2-1a9221be35cd"
+            name="sardellen"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="47c96c29-9ae2-47e8-a633-58ad7f47ed19"
+            name="sardellenPreis"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="a28da954-6351-4b9b-b8b3-f384c9ab6726"
+        name="Pizza"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedOperationsInternal>
+          <operation
+            Id="d59d00b9-0149-4148-b5e4-cb671feeba5a"
+            name="rezept"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ec2c8cdc-2bb0-4c0d-9612-6b7825e5b7a0"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Bridge.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="3ba8237f-441a-463c-983f-5de78bcb8e76"
+            name="kosten"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="781d3f9f-4d71-48a7-8061-7ffe2c45d97b"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="Bridge.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d2a3fdf7-862c-4d40-acc1-f35a16f2fb31"
+        name="Napoli"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="4f1388de-3336-4624-be2e-6fcee98a839e"
+            isSubstitutable="false">
+            <classMoniker
+              Id="a28da954-6351-4b9b-b8b3-f384c9ab6726"
+              LastKnownName="Pizza"
+              LastKnownLocation="Bridge.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="2070a5c2-f879-41a1-9984-be346b39b70c"
+            name="kosten"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7794c23e-3d41-403b-b5ec-bc5a68065c83"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="Bridge.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="938875bd-244b-4269-98f8-4ad241dae068"
+            name="rezept"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="43391ce4-83b1-4b7b-9917-894c7adb297e"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Bridge.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="bf7becbd-f2d5-4df3-a126-61575ace273a"
+        name="Margherita"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="85671292-e717-447b-9e39-c924e2e5c0e5"
+            isSubstitutable="false">
+            <classMoniker
+              Id="a28da954-6351-4b9b-b8b3-f384c9ab6726"
+              LastKnownName="Pizza"
+              LastKnownLocation="Bridge.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="6ed2fa18-893c-46c0-8f07-2e1f47b185d5"
+            name="kosten"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b029926a-be46-4314-8b80-3f70188e421c"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="Bridge.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="1564f6b9-f3de-4d81-abdb-c4c35463d5ad"
+            name="rezept"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9ad13565-b091-4735-afa9-21cebb893720"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="Bridge.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
   <primitiveType
     Id="220a3521-e091-4221-bae9-3ef9018e845c"
     name="Integer"
     isAbstract="false"
-    isTemplate="false"
     isLeaf="false" />
   <primitiveType
     Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
     name="Boolean"
     isAbstract="false"
-    isTemplate="false"
     isLeaf="false" />
   <primitiveType
     Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
     name="String"
     isAbstract="false"
-    isTemplate="false"
     isLeaf="false" />
   <primitiveType
     Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
     name="UnlimitedNatural"
     isAbstract="false"
-    isTemplate="false"
     isLeaf="false" />
 </modelStoreModel>
