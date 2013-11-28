@@ -13,7 +13,7 @@ public class AmericanPizzas : Pizzeria
 {
     public virtual string teig()
     {
-        throw new System.NotImplementedException();
+        return "Dicker, luftiger Teig";
     }
 
     public virtual int teigPreis()
@@ -23,7 +23,7 @@ public class AmericanPizzas : Pizzeria
 
     public virtual string tomatensoße()
     {
-        throw new System.NotImplementedException();
+        return "Ganz normale Tomatensoße";
     }
 
     public virtual int tomatensoßePreis()
