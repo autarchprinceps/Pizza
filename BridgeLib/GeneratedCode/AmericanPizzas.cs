@@ -11,75 +11,75 @@ using System.Text;
 
 public class AmericanPizzas : Pizzeria
 {
-	public virtual void teig()
-	{
-		throw new System.NotImplementedException();
-	}
+    public virtual string teig()
+    {
+        throw new System.NotImplementedException();
+    }
 
-	public virtual void teigPreis()
-	{
-		throw new System.NotImplementedException();
-	}
+    public virtual int teigPreis()
+    {
+        return 3;
+    }
 
-	public virtual void tomatensoße()
-	{
-		throw new System.NotImplementedException();
-	}
+    public virtual string tomatensoße()
+    {
+        throw new System.NotImplementedException();
+    }
 
-	public virtual void tomatensoßePreis()
-	{
-		throw new System.NotImplementedException();
-	}
+    public virtual int tomatensoßePreis()
+    {
+        return 1;
+    }
 
-	public virtual void käse()
-	{
-		throw new System.NotImplementedException();
-	}
+    public virtual string käse()
+    {
+        throw new System.NotImplementedException();
+    }
 
-	public virtual void salami()
-	{
-		throw new System.NotImplementedException();
-	}
+    public virtual int käsePreis()
+    {
+        return 2;
+    }
 
-	public virtual void käsePreis()
-	{
-		throw new System.NotImplementedException();
-	}
+    public virtual string salami()
+    {
+        throw new System.NotImplementedException();
+    }
 
-	public virtual void salamiPreis()
-	{
-		throw new System.NotImplementedException();
-	}
+    public virtual int salamiPreis()
+    {
+        return 1;
+    }
 
-	public virtual void schinken()
-	{
-		throw new System.NotImplementedException();
-	}
+    public virtual string schinken()
+    {
+        throw new System.NotImplementedException();
+    }
 
-	public virtual void schinkenPreis()
-	{
-		throw new System.NotImplementedException();
-	}
+    public virtual int schinkenPreis()
+    {
+        return 1;
+    }
 
-	public virtual void paprika()
-	{
-		throw new System.NotImplementedException();
-	}
+    public virtual string paprika()
+    {
+        throw new System.NotImplementedException();
+    }
 
-	public virtual void paprikaPreis()
-	{
-		throw new System.NotImplementedException();
-	}
+    public virtual int paprikaPreis()
+    {
+        return 1;
+    }
 
-	public virtual void sardellen()
-	{
-		throw new System.NotImplementedException();
-	}
+    public virtual string sardellen()
+    {
+        throw new System.NotImplementedException();
+    }
 
-	public virtual void sardellenPreis()
-	{
-		throw new System.NotImplementedException();
-	}
+    public virtual int sardellenPreis()
+    {
+        return 2;
+    }
 
 }
 

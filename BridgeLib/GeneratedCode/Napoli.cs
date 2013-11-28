@@ -13,13 +13,18 @@ public class Napoli : Pizza
 {
 	public override int kosten()
 	{
-		throw new System.NotImplementedException();
+        return this.Pizzeria.teigPreis() + this.Pizzeria.tomatensoßePreis() + this.Pizzeria.käsePreis() + this.Pizzeria.sardellenPreis();
 	}
 
 	public override string rezept()
 	{
-		throw new System.NotImplementedException();
+        return this.Pizzeria.teig() + '\n' + this.Pizzeria.tomatensoße() + '\n' + this.Pizzeria.käse() + '\n' + this.Pizzeria.sardellen() + '\n';
 	}
 
+    public Napoli(Pizzeria laden)
+        : base(laden)
+    {
+        // TODO FIXME kann ich den Methodenrumpf irgendwie wegblenden
+    }
 }
 

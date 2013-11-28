@@ -11,74 +11,74 @@ using System.Text;
 
 public class Tonis : Pizzeria
 {
-	public virtual void teig()
+	public virtual string teig()
 	{
 		throw new System.NotImplementedException();
 	}
 
-	public virtual void teigPreis()
+	public virtual int teigPreis()
+	{
+        return 1;
+	}
+
+	public virtual string tomatensoße()
 	{
 		throw new System.NotImplementedException();
 	}
 
-	public virtual void tomatensoße()
+	public virtual int tomatensoßePreis()
+	{
+        return 2;
+	}
+
+	public virtual string käse()
 	{
 		throw new System.NotImplementedException();
 	}
 
-	public virtual void tomatensoßePreis()
+    public virtual int käsePreis()
+    {
+        return 1;
+    }
+
+	public virtual string salami()
 	{
 		throw new System.NotImplementedException();
 	}
 
-	public virtual void käse()
+	public virtual int salamiPreis()
+	{
+        return 4;
+	}
+
+	public virtual string schinken()
 	{
 		throw new System.NotImplementedException();
 	}
 
-	public virtual void salami()
+	public virtual int schinkenPreis()
+	{
+        return 4;
+	}
+
+	public virtual string paprika()
 	{
 		throw new System.NotImplementedException();
 	}
 
-	public virtual void käsePreis()
+	public virtual int paprikaPreis()
+	{
+        return 1;
+	}
+
+	public virtual string sardellen()
 	{
 		throw new System.NotImplementedException();
 	}
 
-	public virtual void salamiPreis()
+	public virtual int sardellenPreis()
 	{
-		throw new System.NotImplementedException();
-	}
-
-	public virtual void schinken()
-	{
-		throw new System.NotImplementedException();
-	}
-
-	public virtual void schinkenPreis()
-	{
-		throw new System.NotImplementedException();
-	}
-
-	public virtual void paprika()
-	{
-		throw new System.NotImplementedException();
-	}
-
-	public virtual void paprikaPreis()
-	{
-		throw new System.NotImplementedException();
-	}
-
-	public virtual void sardellen()
-	{
-		throw new System.NotImplementedException();
-	}
-
-	public virtual void sardellenPreis()
-	{
-		throw new System.NotImplementedException();
+        return 3;
 	}
 
 }

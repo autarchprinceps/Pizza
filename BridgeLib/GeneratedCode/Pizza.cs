@@ -21,5 +21,10 @@ public abstract class Pizza
 
 	public abstract int kosten();
 
+	public Pizza(Pizzeria laden)
+	{
+        this.Pizzeria = laden;
+	}
+
 }
 

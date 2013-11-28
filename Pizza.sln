@@ -9,6 +9,8 @@ Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "CompositeDecorator", "Compo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgeLib", "BridgeLib\BridgeLib.csproj", "{C8400CDD-AFA6-4215-87EB-86C13B7A9109}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgeExec", "BridgeExec\BridgeExec.csproj", "{D85F113F-7ACA-419A-AB4F-72CF446A0239}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{C8400CDD-AFA6-4215-87EB-86C13B7A9109}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8400CDD-AFA6-4215-87EB-86C13B7A9109}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8400CDD-AFA6-4215-87EB-86C13B7A9109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D85F113F-7ACA-419A-AB4F-72CF446A0239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D85F113F-7ACA-419A-AB4F-72CF446A0239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D85F113F-7ACA-419A-AB4F-72CF446A0239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D85F113F-7ACA-419A-AB4F-72CF446A0239}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

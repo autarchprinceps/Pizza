@@ -11,33 +11,33 @@ using System.Text;
 
 public interface Pizzeria 
 {
-	void teig();
+	string teig();
 
-	void teigPreis();
+	int teigPreis();
 
-	void tomatensoße();
+	string tomatensoße();
 
-	void tomatensoßePreis();
+	int tomatensoßePreis();
 
-	void käse();
+	string käse();
 
-	void salami();
+	string salami();
 
-	void käsePreis();
+	int käsePreis();
 
-	void salamiPreis();
+	int salamiPreis();
 
-	void schinken();
+	string schinken();
 
-	void schinkenPreis();
+	int schinkenPreis();
 
-	void paprika();
+	string paprika();
 
-	void paprikaPreis();
+	int paprikaPreis();
 
-	void sardellen();
+	string sardellen();
 
-	void sardellenPreis();
+	int sardellenPreis();
 
 }
 

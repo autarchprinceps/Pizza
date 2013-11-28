@@ -72,20 +72,6 @@
       </propertyInstances>
     </stereotypeInstance>
   </appliedStereotypesInternal>
-  <profileInstances>
-    <packageHasProfileInstances Id="1a3be5e9-0d9e-415e-b0de-e3b7604b39e0">
-      <profileInstance Id="51153900-9cde-453d-800a-f926b6593eb7" name="CSharpProfile">
-        <elementDefinition Id="9f4c7120-75d7-4630-a12c-76ff5368dba0" />
-      </profileInstance>
-      <elementDefinition Id="3004cbc6-12b7-4f1a-9523-ce429f533658" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="6fb5e880-99bc-4304-87c7-d404fbcb9ddd">
-      <profileInstance Id="61853997-ae8f-4991-9831-11c206380dbf" name="TextTemplateBindings">
-        <elementDefinition Id="45b320d3-093e-4847-901a-41b65f258074" />
-      </profileInstance>
-      <elementDefinition Id="7f37f02c-3dd0-4581-9319-3a9a0415a6ed" />
-    </packageHasProfileInstances>
-  </profileInstances>
   <packagedElements>
     <packageHasNamedElement>
       <referencedType Id="1f31769c-a9a4-4a14-b352-b4ccfe8c09b1" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
@@ -182,6 +168,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="5ff6cbab-e8d2-40d7-ab5c-3032ef9dd5fa" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="43ec8624-704a-43ee-be8e-4ed28dc3a8eb" direction="Return">
+                  <elementDefinition Id="53b64dbb-e97d-4b09-b511-1e86f12d9c08" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="8093fb38-17ff-4b31-8556-49ef57d6091a" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="8306d769-d7aa-45c6-a9ff-184242d3c6e5" name="teigPreis" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -228,6 +224,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="2111d786-f499-4690-9196-8e498a3216e2" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="f8d54abe-b1d0-4a70-81aa-3d54a39b08c5" direction="Return">
+                  <elementDefinition Id="82f1acd5-c34a-4d36-801f-748434143b5a" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="30fba550-297a-43fb-b9e3-ebac86117fe9" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="38d97c0b-8f47-4da7-8309-cb238071f219" name="tomatensoße" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -274,6 +280,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="7e57f450-5e63-416a-a822-a5f8597471e6" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="ce5edead-ee15-49e4-bcc0-761ecbb78466" direction="Return">
+                  <elementDefinition Id="9e1b5124-6039-4a10-87e9-3f66614371af" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="5efd8656-61d0-482e-a084-34a318477ab2" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="1023e15e-5995-4b07-9779-b8c3f91cbf83" name="tomatensoßePreis" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -320,6 +336,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="d7e31615-edd5-42ae-b563-60322a8e656c" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="2134beb0-c2db-408e-bb3e-723bbe9f92d9" direction="Return">
+                  <elementDefinition Id="2738fdf7-ab58-4f8d-9186-5cfc7474a8ae" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="a14c3697-cdd9-4e44-828f-1f476df86568" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="12925ff4-1e7e-4663-af35-c7a7fb30a493" name="käse" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -366,6 +392,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="445128cc-4695-4582-91c1-9ac57acdc351" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="2eec02fc-0b27-4eae-a51f-e4a0f1783afb" direction="Return">
+                  <elementDefinition Id="afe81728-9c95-4eaa-887a-d108d5e18a1d" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2f89f3e7-4597-4a26-81bc-f0e079c0a34c" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="90af003e-4256-4bbb-a6a7-ca6186cea651" name="salami" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -412,6 +448,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="a874e63f-6120-44d4-bf2c-673bbe2649f7" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="e03ecf9b-47b4-41f8-852d-9dcac52c0d67" direction="Return">
+                  <elementDefinition Id="2df808fd-42b4-46d0-8e46-3654a2248e7e" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="31bbab1b-d57f-4dbf-bb5a-ae9cf4da2e9f" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="c8bd0005-10ba-4bab-8ae5-0e7f6d49818b" name="käsePreis" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -458,6 +504,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="013689b6-0c70-4502-b364-36afeaa66e3f" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="ccf7552e-71ff-4c67-8f21-2aeb5696fa54" direction="Return">
+                  <elementDefinition Id="de65bcc6-bde1-4238-9ce6-617854a14c87" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="a9050ef2-ac85-4610-96fa-5f7352a061b9" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="fabec711-8482-4a2f-b2dc-b291187b363f" name="salamiPreis" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -504,6 +560,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="6e7e0761-fb9a-41b3-ab26-cca9683a8899" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="8de79e17-42dd-407c-b8ee-6dd6f1588bd3" direction="Return">
+                  <elementDefinition Id="5d643eba-bd47-48ae-8005-c7053c4d6434" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="36382073-b846-4095-9375-f23f614dcd6d" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="b651c3b7-b475-4b75-8063-179e0422bda6" name="schinken" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -550,6 +616,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="8f20ebbe-de52-4c7e-b9bc-1bd671cd9b1d" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="e87663e7-7674-47b2-8a02-eaad2085f898" direction="Return">
+                  <elementDefinition Id="c9142a37-09d7-4f91-903c-8562dfb052b8" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="ae0d2e07-2fb7-4d97-815d-80800cb0053b" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="99af172a-53ee-4148-a728-b69300f5a998" name="schinkenPreis" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -596,6 +672,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="d8b81a2d-db41-4b01-928e-13cd4dfbd4ba" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="254d12d6-519e-4bf9-8056-e88fc9ce929a" direction="Return">
+                  <elementDefinition Id="cd963a0d-20d8-423a-8ff0-577a7dc266f9" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="b0e9510a-236e-41ab-afdc-9ff16676c10c" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="aac3f22b-dd68-4f27-912f-aa575c2d096b" name="paprika" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -642,6 +728,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="61fb0eb4-01de-4432-ba64-d0360359acee" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="93233390-3a69-4252-b7fa-795009d67f70" direction="Return">
+                  <elementDefinition Id="d826b8c4-0158-4d43-9365-5f0c47999a98" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="7fb15908-3141-46a8-a250-0d411687df56" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="86f693c4-1ccb-4ca1-bf3c-8e876f26dd98" name="paprikaPreis" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -688,6 +784,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="ade50f8d-9db4-46d2-8bf0-e314f3e0d8c6" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="96ef20ab-5802-4cc2-9c99-e5a0b4732458" direction="Return">
+                  <elementDefinition Id="c3b957b8-d864-42b1-b629-75fc2b0bc338" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="26151f21-22c4-43a7-afe2-738c53820169" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="c6d320aa-734a-49a9-b6a7-64bf44b4aed5" name="sardellen" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -734,6 +840,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="911cded2-584b-4ac2-b39f-e1c547f8514d" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="e9f71294-ba2f-4f27-8c88-74a576c1013d" direction="Return">
+                  <elementDefinition Id="2469ee41-10a6-4590-9b20-91f6504493e2" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="f984d508-027d-4618-abb3-d2060482ae04" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="06e77005-0690-451e-b5e8-c5fda5d2b4ba" name="sardellenPreis" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -780,6 +896,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="c916a4f3-8ac7-46fe-88fa-95c66d5c6fb2" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="1334357d-309c-4197-9465-c76b898bad2d" direction="Return">
+                  <elementDefinition Id="b0d1f1ac-42f9-445e-bafc-795283c58429" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="65547b47-0fa0-4408-8129-d8098431d3ed" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
         </ownedOperations>
       </Interface>
@@ -876,6 +1002,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="61900fe0-a7a9-4fa7-9b1f-e8391b9b6700" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="ed9fd946-c996-40ba-9b7a-04423e041829" direction="Return">
+                  <elementDefinition Id="9bb53803-3591-4dfd-bc56-390ec09e9969" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1f31769c-a9a4-4a14-b352-b4ccfe8c09b1" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="beaa086b-b174-4762-a67b-a5f2479f596f" name="teigPreis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -922,6 +1058,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="602c33c4-51b1-426f-aae7-28dbf3c3e2af" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="1ff3e985-ffa0-45c4-b110-a91d9a7262e3" direction="Return">
+                  <elementDefinition Id="7405c37e-2a23-4f3a-8696-0cb5d849c4e1" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1e2ce01c-46e9-49b4-b940-2aaeff0c9e5c" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="2317007b-45fd-4d74-9bb4-e2d30d5fcf6d" name="tomatensoße" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -968,6 +1114,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="1c17c1a9-ad82-4783-af45-d99f2e53c426" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="1a86c6fd-2713-4ed4-9883-44df6d0f180e" direction="Return">
+                  <elementDefinition Id="2ff16323-6948-46c9-a743-375ef39ba834" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1f31769c-a9a4-4a14-b352-b4ccfe8c09b1" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="5e9a2a1f-7c69-43a2-9514-9e03c2324f14" name="tomatensoßePreis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -1014,6 +1170,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="046cc42e-5d0b-4303-9271-3f66102315f2" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="0ebb739f-7609-4880-8974-27d9e10cadeb" direction="Return">
+                  <elementDefinition Id="c2d43224-2eb7-4620-aafb-cab904afe81a" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1e2ce01c-46e9-49b4-b940-2aaeff0c9e5c" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="24996184-bd6d-4017-9710-3e1146073165" name="käse" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -1060,6 +1226,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="c2074c0f-4fe0-4c40-9122-72c64a73d868" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="23098aeb-7550-4d45-ba77-9d7933f67ccb" direction="Return">
+                  <elementDefinition Id="33eb9a7d-7b7c-4450-8723-e6ae259b26da" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1f31769c-a9a4-4a14-b352-b4ccfe8c09b1" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="057edd0f-929c-4a3b-bba1-c66b983f8a68" name="salami" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -1106,6 +1282,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="d07a6e42-90bf-45af-8999-1f6796e3d963" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="4918de99-f94b-4467-8205-835817719ea6" direction="Return">
+                  <elementDefinition Id="55bfe330-4a36-4b8c-8055-2ba853532033" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1f31769c-a9a4-4a14-b352-b4ccfe8c09b1" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="26113984-8a74-4f05-90fe-7fd7d924ac20" name="käsePreis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -1152,6 +1338,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="01eafca7-cff9-4261-be76-aa7269d563b9" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="031b32ce-e5b2-4503-ac23-d4ead581af5e" direction="Return">
+                  <elementDefinition Id="97097fb6-fe48-4f7c-8e0a-c88113ec23ea" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1e2ce01c-46e9-49b4-b940-2aaeff0c9e5c" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="d26f8b22-4285-45dd-9592-d3ee788b1452" name="salamiPreis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -1198,6 +1394,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="313244f4-88fc-4b12-821f-35f0c7138d2a" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="6674a7d3-e846-412e-bb44-a1001f698c40" direction="Return">
+                  <elementDefinition Id="9cf1fca4-6289-45c0-b8f7-c73abec9941f" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1e2ce01c-46e9-49b4-b940-2aaeff0c9e5c" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="d3f2db14-4f74-4d8b-bb2c-6e5f642e579c" name="schinken" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -1244,6 +1450,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="481f44d9-1b04-4933-9b25-4cdab354a70b" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="fdf63041-3354-4170-897e-f2df0dc71a54" direction="Return">
+                  <elementDefinition Id="019d1093-99a2-4246-a5bc-e642c53a244a" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1f31769c-a9a4-4a14-b352-b4ccfe8c09b1" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="7b09ecf2-45bc-4330-bd49-d3c363d1d452" name="schinkenPreis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -1290,6 +1506,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="b1a1be18-028a-4c73-afb5-d0504c5f252a" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="a8a9efb3-16b3-4bae-af4d-92e706dc70f6" direction="Return">
+                  <elementDefinition Id="5d727a76-0aee-4922-bffe-cbcf561d5e8d" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1e2ce01c-46e9-49b4-b940-2aaeff0c9e5c" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="3969ac31-3810-40bf-b2e6-fda841abdc7b" name="paprika" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -1336,6 +1562,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="12d55419-7128-40ad-99e0-e32010d61cb6" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="7529e2ab-455b-4ffd-8a06-b8a264fb4642" direction="Return">
+                  <elementDefinition Id="bd2cb4bd-68d2-408d-9807-2481aab966c9" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1f31769c-a9a4-4a14-b352-b4ccfe8c09b1" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="6aa687d3-cec0-4671-a6d7-07055711557f" name="paprikaPreis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -1382,6 +1618,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="1765c63c-eec0-4789-add2-f2bc661706f2" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="aa4d824b-de08-4b1c-b21f-6633617ff517" direction="Return">
+                  <elementDefinition Id="46a567b4-8f7e-46ef-aabd-5c8483309cd9" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1e2ce01c-46e9-49b4-b940-2aaeff0c9e5c" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="8334f284-1de7-4415-a0fe-acb491cbaed2" name="sardellen" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -1428,6 +1674,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="5841a7f1-5c40-4822-9d1e-62d80ca49809" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="acfb97d7-45b1-4404-907c-6c39c3583576" direction="Return">
+                  <elementDefinition Id="c30932e7-15c6-4190-b443-c802602bc93f" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1f31769c-a9a4-4a14-b352-b4ccfe8c09b1" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="0c037d8d-b808-4448-84f3-b38e60e283d7" name="sardellenPreis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -1474,6 +1730,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="f57325c2-322c-4e2f-9b73-8c3fc91dad07" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="4d0de522-0340-4863-8f83-616cf67c8e23" direction="Return">
+                  <elementDefinition Id="65aa42d7-bede-4675-9300-cb4ee78a1086" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1e2ce01c-46e9-49b4-b940-2aaeff0c9e5c" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
         </ownedOperationsInternal>
       </class>
@@ -1570,6 +1836,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="af5c6d46-d0ea-40a1-8ded-23564a0b2042" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="7e24a62e-e62b-4123-a925-91963916c36e" direction="Return">
+                  <elementDefinition Id="8918c2e0-415b-459f-8957-f679c42adda8" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1f31769c-a9a4-4a14-b352-b4ccfe8c09b1" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="96fd77fe-8212-45ba-a003-a2a56ad409b4" name="teigPreis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -1616,6 +1892,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="6e965258-75d1-48e7-a47f-dcf5929c1337" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="37ad8570-60f1-4926-bc30-be3b20a14270" direction="Return">
+                  <elementDefinition Id="f9e47b78-00c6-44b6-992f-d3b98b00c0eb" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1e2ce01c-46e9-49b4-b940-2aaeff0c9e5c" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="1e0fd7c2-0ba5-4419-bd6e-b28d14a0fbef" name="tomatensoße" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -1662,6 +1948,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="14eb649c-0712-40e3-8f46-f178a7cd1679" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="9a37a47a-e35c-4200-a8eb-f21f10f9cade" direction="Return">
+                  <elementDefinition Id="7fbfa129-919b-4e33-a82d-83a808cc2ef6" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1f31769c-a9a4-4a14-b352-b4ccfe8c09b1" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="8d13a6e1-92b9-4f7b-be53-ea07a12e995b" name="tomatensoßePreis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -1708,6 +2004,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="c92d5245-f8ce-42b0-9590-8e9192b54b2d" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="8d895d10-897f-4b87-aab5-bf7dbfc0e317" direction="Return">
+                  <elementDefinition Id="10554a94-cda3-4053-acc5-b0c618ebdd01" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1e2ce01c-46e9-49b4-b940-2aaeff0c9e5c" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="26220108-b77c-44e7-837a-40dd927f5e9f" name="käse" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -1754,6 +2060,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="601fdd1b-d06f-4eca-b423-1f33ff04eb25" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="9c84a8fb-2131-4414-98ab-61d156c40393" direction="Return">
+                  <elementDefinition Id="4f5c01de-c339-439e-9a69-66d1c7b4261e" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1f31769c-a9a4-4a14-b352-b4ccfe8c09b1" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="3b55ce8a-5658-43a4-86a1-3ad1089504df" name="salami" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -1800,6 +2116,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="0a35b1a9-7acb-43e0-9463-a7b0de85cb5a" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="14e5dca2-11f9-4f66-b9b2-8d5da3af9b6a" direction="Return">
+                  <elementDefinition Id="6c1e1664-ec9d-4852-aca9-d7662a6f9abb" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1f31769c-a9a4-4a14-b352-b4ccfe8c09b1" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="d075919c-f106-4eeb-9b8c-76c62727b210" name="käsePreis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -1846,6 +2172,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="64e0b654-a217-482f-8dea-5cb3899344da" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="3028f6a8-1b13-45dc-980d-56ea985af52c" direction="Return">
+                  <elementDefinition Id="6674ab63-2f48-4b0f-b367-6cf638792315" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1e2ce01c-46e9-49b4-b940-2aaeff0c9e5c" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="baba7d8d-36d4-4a46-aacb-696a387ec076" name="salamiPreis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -1892,6 +2228,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="0815535b-a852-4930-832d-9fecb514009b" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="ceddf0f6-1443-4adb-8bc2-555f52c69fdb" direction="Return">
+                  <elementDefinition Id="489912a6-76cd-4a24-969d-6cb22f571078" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1e2ce01c-46e9-49b4-b940-2aaeff0c9e5c" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="4a16f9b2-5c66-4eb3-9769-2ecc82ad1e10" name="schinken" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -1938,6 +2284,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="6ba941c3-94b3-4d4f-9d34-c141793a78e6" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="d7d0840e-e8d5-4474-84b8-f774fc436df2" direction="Return">
+                  <elementDefinition Id="cc5e3ee5-6b77-47cd-976d-1594cbcc93b2" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1f31769c-a9a4-4a14-b352-b4ccfe8c09b1" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="5c1c9bdf-135b-45de-810e-8191c75f08a5" name="schinkenPreis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -1984,6 +2340,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="f85dd73d-1653-4e3b-afaf-1a9a3f46e55c" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="9a4e3b86-e45e-4d12-b592-f3a1917ed66c" direction="Return">
+                  <elementDefinition Id="7c91cb75-1601-4322-acbd-8979946eb4e7" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1e2ce01c-46e9-49b4-b940-2aaeff0c9e5c" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="f1333ef4-f91a-447d-a14d-900d97b09180" name="paprika" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -2030,6 +2396,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="a3379d40-a30d-48fc-baab-2a465f9a2355" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="ed20c5dc-1b73-4522-a34c-82071303ba00" direction="Return">
+                  <elementDefinition Id="54c62451-af32-4f09-bedb-9f47b4528eb7" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1f31769c-a9a4-4a14-b352-b4ccfe8c09b1" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="d54d6556-17a2-448f-aa96-829e80a41b8c" name="paprikaPreis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -2076,6 +2452,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="4257cdde-9093-4253-873f-b6fe99e11aa7" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="5370a2f0-f9b7-4ac5-9753-b0d02bdb8848" direction="Return">
+                  <elementDefinition Id="9f782df0-6450-46d5-9dbc-535610c22a01" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1e2ce01c-46e9-49b4-b940-2aaeff0c9e5c" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="3412604f-7b05-4a29-86e6-d90be183c581" name="sardellen" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -2122,6 +2508,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="accc2c36-93a0-482a-9ea2-1a9221be35cd" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="df751836-6fa9-48fb-b747-09f9f4619c31" direction="Return">
+                  <elementDefinition Id="f9870ce7-6ae9-48f4-bee1-a53cc65c8fd8" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1f31769c-a9a4-4a14-b352-b4ccfe8c09b1" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
           <operation Id="d1b5cc01-bf3e-45ec-9712-fb7955764664" name="sardellenPreis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
             <appliedStereotypesInternal>
@@ -2168,6 +2564,16 @@
               </stereotypeInstance>
             </appliedStereotypesInternal>
             <elementDefinition Id="47c96c29-9ae2-47e8-a633-58ad7f47ed19" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="151f6f67-bc10-45f3-9513-3c69768f2eba" direction="Return">
+                  <elementDefinition Id="9a722f57-2e57-4372-b953-0429a2da0faf" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1e2ce01c-46e9-49b4-b940-2aaeff0c9e5c" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
           </operation>
         </ownedOperationsInternal>
       </class>
@@ -2343,6 +2749,73 @@
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
+          <operation Id="31ce83f4-59e2-4d67-b6d4-bcac71502af3" name="constructor" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="da058ec9-4a4a-4fc3-9591-35f80372c639" name="create" profile="StandardProfileL2">
+                <elementDefinition Id="4edc47c3-4121-4de6-bf72-57e2d4d25aa8" />
+              </stereotypeInstance>
+              <stereotypeInstance Id="24b3cd70-459d-4438-8794-7f2aff13e6e6" name="method" profile="CSharpProfile">
+                <elementDefinition Id="c9647783-c45e-41d1-b640-2cae6c0cabdf" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="546d57f0-35a2-43b2-96c0-afb83da430b2">
+                    <propertyInstance Id="9b630b5c-c3da-4431-ab04-8abdabb43321" name="ClrAttributes">
+                      <elementDefinition Id="bddf3a55-4320-41aa-9bf1-bc346ca12a4e" />
+                    </propertyInstance>
+                    <elementDefinition Id="30ba8cef-c604-49bf-b2a1-0603353d9147" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e5b28b8d-5c72-4169-b093-b7db881e05c7">
+                    <propertyInstance Id="da2d60e3-5e0b-4129-86df-768fd2bffd1d" name="IsPartial" value="false">
+                      <elementDefinition Id="3597ee09-4a08-4998-ba5c-2af9b0cf2db4" />
+                    </propertyInstance>
+                    <elementDefinition Id="a96a52d4-0479-4de5-a80a-d3667a5e94c0" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e1bc001d-3c6d-41ec-ab3c-2e9fff3dce66">
+                    <propertyInstance Id="6353e099-eaa6-459e-b346-05d8e34f66da" name="IsUnsafe" value="false">
+                      <elementDefinition Id="342cb782-f9aa-4a1e-b6a1-6be023711019" />
+                    </propertyInstance>
+                    <elementDefinition Id="54402e38-ca0d-40d5-a0ae-eb83307b656b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e9ac4d1e-79ae-4a72-84ae-cd4f56791bee">
+                    <propertyInstance Id="304c0cc8-dc73-40e6-95fa-c12dce0e4c11" name="Inheritance" value="none">
+                      <elementDefinition Id="767ae6b8-41d2-47da-9384-c659cb1414da" />
+                    </propertyInstance>
+                    <elementDefinition Id="056dc4ab-8a48-4a0c-a72a-0b339777cafd" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0445afa1-a63c-42d5-a333-128ec2a512cf">
+                    <propertyInstance Id="c07d900f-dff2-4f7a-ae77-f162d56d74f9" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="3bfbdd1c-5015-4206-a28c-24f939d69ef8" />
+                    </propertyInstance>
+                    <elementDefinition Id="e7c7b111-4e47-4600-9c5d-4a6a1e309fdf" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c749a852-d663-4a53-9053-c34b1a306332">
+                    <propertyInstance Id="5abb9868-be95-43d7-a7df-91a5c58e71a6" name="params" value="false">
+                      <elementDefinition Id="904e7025-cb37-4855-970c-9ec7175e509e" />
+                    </propertyInstance>
+                    <elementDefinition Id="47257e09-55f0-47d0-9c14-68d268fa3d06" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="0f7d0090-287e-4dae-9ed1-798204a85858" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="8633d4bc-ddc3-478f-9cfd-381faaaa6f81" name="laden" direction="In" isUnique="false">
+                  <elementDefinition Id="27530680-a56c-46fc-80e5-84406b320ec3" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="642a6c42-fae7-45e9-a4fc-c6e84982d5ab" LastKnownName="Pizzeria" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="8b37039d-36e0-4f85-86c6-0cf0e71fcd12" direction="Return">
+                  <elementDefinition Id="b88dc500-3122-4fbe-80bc-ab748e2e04ec" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="e8ed0150-3165-428a-8c07-0c63bae6d0d2" LastKnownName="Pizza" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
         </ownedOperationsInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
@@ -2500,6 +2973,27 @@
                   <elementDefinition Id="43391ce4-83b1-4b7b-9917-894c7adb297e" />
                   <type_NamedElement>
                     <referencedTypeMoniker Id="1f31769c-a9a4-4a14-b352-b4ccfe8c09b1" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="70fc8fdf-9279-434a-94d8-1aad6710cef2" name="constructor" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="4d82d950-00bc-4763-b3fe-27d75473b220" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="840925f4-7272-404c-b639-e717e4d38f57" name="laden" direction="In" isUnique="false">
+                  <elementDefinition Id="cf001054-263c-4a70-94e1-3d9705a8c680" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="642a6c42-fae7-45e9-a4fc-c6e84982d5ab" LastKnownName="Pizzeria" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="5cdcdd12-96b8-4abe-83b9-09a6998cf992" direction="Return">
+                  <elementDefinition Id="93daeaca-90db-4712-8cd5-c813139d9ab5" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="74fa4439-0b10-4f70-908c-6c28abe66376" LastKnownName="Napoli" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
@@ -2667,9 +3161,125 @@
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
+          <operation Id="30b6187f-c178-444a-b012-fddf50743b2a" name="constructor" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="81232107-8ba0-4c96-b2ce-e4bffb1e955e" name="create" profile="StandardProfileL2">
+                <elementDefinition Id="c09e9487-ae61-4d8b-a8c0-be6030d3c833" />
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="edebc1bb-6364-450c-aac4-9bb33c54fcce" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="d04d83a6-aa02-4be8-ae1d-c9dbfb6a5203" name="laden" direction="In" isUnique="false">
+                  <elementDefinition Id="11ff16b7-c4d5-4994-8ca6-189b9f70f9ae" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="642a6c42-fae7-45e9-a4fc-c6e84982d5ab" LastKnownName="Pizzeria" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="d073014f-bede-46f8-be1a-323a171fca11" direction="Return">
+                  <elementDefinition Id="9fe99df5-dcf6-452d-8a56-1aac70c79574" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="7b128fa5-6788-435a-8648-9789ec578bb1" LastKnownName="Margherita" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
         </ownedOperationsInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="2f89f3e7-4597-4a26-81bc-f0e079c0a34c" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="a9050ef2-ac85-4610-96fa-5f7352a061b9" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
+        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="7fb15908-3141-46a8-a250-0d411687df56" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="26151f21-22c4-43a7-afe2-738c53820169" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
+        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="31bbab1b-d57f-4dbf-bb5a-ae9cf4da2e9f" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="36382073-b846-4095-9375-f23f614dcd6d" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
+        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="f984d508-027d-4618-abb3-d2060482ae04" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="65547b47-0fa0-4408-8129-d8098431d3ed" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
+        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="ae0d2e07-2fb7-4d97-815d-80800cb0053b" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="b0e9510a-236e-41ab-afdc-9ff16676c10c" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
+        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="8093fb38-17ff-4b31-8556-49ef57d6091a" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="30fba550-297a-43fb-b9e3-ebac86117fe9" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
+        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="5efd8656-61d0-482e-a084-34a318477ab2" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="a14c3697-cdd9-4e44-828f-1f476df86568" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
+        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="642a6c42-fae7-45e9-a4fc-c6e84982d5ab" name="Pizzeria" isAbstract="false" isLeaf="false" cachedFullName="Bridge::Pizzeria">
+        <elementDefinition Id="bc2ad8f8-3f51-474e-a827-3bbbacb09799" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="7b128fa5-6788-435a-8648-9789ec578bb1" name="Margherita" isAbstract="false" isLeaf="false" cachedFullName="Bridge::Margherita">
+        <elementDefinition Id="bf7becbd-f2d5-4df3-a126-61575ace273a" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="e8ed0150-3165-428a-8c07-0c63bae6d0d2" name="Pizza" isAbstract="false" isLeaf="false" cachedFullName="Bridge::Pizza">
+        <elementDefinition Id="a28da954-6351-4b9b-b8b3-f384c9ab6726" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="74fa4439-0b10-4f70-908c-6c28abe66376" name="Napoli" isAbstract="false" isLeaf="false" cachedFullName="Bridge::Napoli">
+        <elementDefinition Id="d2a3fdf7-862c-4d40-acc1-f35a16f2fb31" />
+      </referencedType>
+    </packageHasNamedElement>
   </packagedElements>
   <package Id="dd1b5602-837d-408a-903d-9290664c2233" name="Bridge">
     <elementDefinition Id="27cf1625-6c87-4f71-8e54-b2467da74cba" />
@@ -2685,6 +3295,18 @@
           <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
         </profileInstance>
         <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="1a3be5e9-0d9e-415e-b0de-e3b7604b39e0">
+        <profileInstance Id="51153900-9cde-453d-800a-f926b6593eb7" name="CSharpProfile">
+          <elementDefinition Id="9f4c7120-75d7-4630-a12c-76ff5368dba0" />
+        </profileInstance>
+        <elementDefinition Id="3004cbc6-12b7-4f1a-9523-ce429f533658" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="6fb5e880-99bc-4304-87c7-d404fbcb9ddd">
+        <profileInstance Id="61853997-ae8f-4991-9831-11c206380dbf" name="TextTemplateBindings">
+          <elementDefinition Id="45b320d3-093e-4847-901a-41b65f258074" />
+        </profileInstance>
+        <elementDefinition Id="7f37f02c-3dd0-4581-9319-3a9a0415a6ed" />
       </packageHasProfileInstances>
     </profileInstances>
   </package>

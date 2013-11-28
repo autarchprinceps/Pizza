@@ -6,47 +6,24 @@
   <MessageClass Name="Error" Label="Fehler" Option="Fehler anzeigen" />
   <MessageClass Name="Property" Label="Eigenschaft" Option="Metadaten anzeigen" />
   <MessageClass Name="Diagnostic" Label="Meldung" Option="Diagnosemeldungen anzeigen" />
-  <Message Timestamp="2013-11-27T18:48:59" Importance="High" Text="Die Codegenerierung oder Texttransformation wurde gestartet." />
-  <Message Timestamp="2013-11-27T18:48:59" Importance="Diagnostic" Text="Name = ClassTemplate" />
-  <Message Timestamp="2013-11-27T18:48:59" Importance="Diagnostic" Text="Überschreiben = True" />
-  <Message Timestamp="2013-11-27T18:48:59" Importance="Diagnostic" Text="ProjectPath = ..\BridgeLib\BridgeLib.csproj" />
-  <Message Timestamp="2013-11-27T18:48:59" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
-  <Message Timestamp="2013-11-27T18:48:59" Importance="Diagnostic" Text="TargetName = {Name}" />
-  <Message Timestamp="2013-11-27T18:48:59" Importance="Diagnostic" Text="TemplateFilePath = E:\APPLICATIONS\VISUALSTUDIO2012\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
-  <Message Timestamp="2013-11-27T18:48:59" Importance="Diagnostic" Text="ResolvedTemplateFilePath = E:\APPLICATIONS\VISUALSTUDIO2012\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
-  <Message Timestamp="2013-11-27T18:48:59" Importance="Medium" Text="Die Textvorlagenbindung von Bridge: 'ClassTemplate' wendet ClassTemplate.t4 an für: 'Bridge::Tonis' -  (Class), 'Bridge::AmericanPizzas' -  (Class), 'Bridge::Pizza' -  (Class), 'Bridge::Napoli' -  (Class), 'Bridge::Margherita' -  (Class) " />
-  <Message Timestamp="2013-11-27T18:48:59" Importance="Medium" Text="'Bridge::Tonis' -  (Class) : Erfolg (Datei ersetzt) - E:\ITZeug\Pizza\BridgeLib\GeneratedCode\Tonis.cs" />
-  <Message Timestamp="2013-11-27T18:48:59" Importance="Medium" Text="'Bridge::AmericanPizzas' -  (Class) : Erfolg (Datei erstellt) - E:\ITZeug\Pizza\BridgeLib\GeneratedCode\AmericanPizzas.cs" />
-  <Message Timestamp="2013-11-27T18:48:59" Importance="Medium" Text="'Bridge::Pizza' -  (Class) : Erfolg (Datei ersetzt) - E:\ITZeug\Pizza\BridgeLib\GeneratedCode\Pizza.cs" />
-  <Message Timestamp="2013-11-27T18:49:00" Importance="Medium" Text="'Bridge::Napoli' -  (Class) : Erfolg (Datei ersetzt) - E:\ITZeug\Pizza\BridgeLib\GeneratedCode\Napoli.cs" />
-  <Message Timestamp="2013-11-27T18:49:00" Importance="Medium" Text="'Bridge::Margherita' -  (Class) : Erfolg (Datei ersetzt) - E:\ITZeug\Pizza\BridgeLib\GeneratedCode\Margherita.cs" />
-  <Message Timestamp="2013-11-27T18:49:00" Importance="Diagnostic" Text="Name = InterfaceTemplate" />
-  <Message Timestamp="2013-11-27T18:49:00" Importance="Diagnostic" Text="Überschreiben = True" />
-  <Message Timestamp="2013-11-27T18:49:00" Importance="Diagnostic" Text="ProjectPath = ..\BridgeLib\BridgeLib.csproj" />
-  <Message Timestamp="2013-11-27T18:49:00" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
-  <Message Timestamp="2013-11-27T18:49:00" Importance="Diagnostic" Text="TargetName = {Name}" />
-  <Message Timestamp="2013-11-27T18:49:00" Importance="Diagnostic" Text="TemplateFilePath = E:\APPLICATIONS\VISUALSTUDIO2012\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4" />
-  <Message Timestamp="2013-11-27T18:49:00" Importance="Diagnostic" Text="ResolvedTemplateFilePath = E:\APPLICATIONS\VISUALSTUDIO2012\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4" />
-  <Message Timestamp="2013-11-27T18:49:00" Importance="Medium" Text="Die Textvorlagenbindung von Bridge: 'InterfaceTemplate' wendet InterfaceTemplate.t4 an für: 'Bridge::Pizzeria' -  (Interface) " />
-  <Message Timestamp="2013-11-27T18:49:00" Importance="Medium" Text="'Bridge::Pizzeria' -  (Interface) : Erfolg (Datei ersetzt) - E:\ITZeug\Pizza\BridgeLib\GeneratedCode\Pizzeria.cs" />
-  <Message Timestamp="2013-11-27T18:49:00" Importance="Diagnostic" Text="Name = StructTemplate" />
-  <Message Timestamp="2013-11-27T18:49:00" Importance="Diagnostic" Text="Überschreiben = True" />
-  <Message Timestamp="2013-11-27T18:49:00" Importance="Diagnostic" Text="ProjectPath = ..\BridgeLib\BridgeLib.csproj" />
-  <Message Timestamp="2013-11-27T18:49:00" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
-  <Message Timestamp="2013-11-27T18:49:00" Importance="Diagnostic" Text="TargetName = {Name}" />
-  <Message Timestamp="2013-11-27T18:49:00" Importance="Diagnostic" Text="TemplateFilePath = E:\APPLICATIONS\VISUALSTUDIO2012\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
-  <Message Timestamp="2013-11-27T18:49:00" Importance="Diagnostic" Text="ResolvedTemplateFilePath = E:\APPLICATIONS\VISUALSTUDIO2012\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
-  <Message Timestamp="2013-11-27T18:49:00" Importance="Medium" Text="Die Textvorlagenbindung von Bridge: 'StructTemplate' wendet StructTemplate.t4 an für: 'Bridge::Tonis' -  (Class), 'Bridge::AmericanPizzas' -  (Class), 'Bridge::Pizza' -  (Class), 'Bridge::Napoli' -  (Class), 'Bridge::Margherita' -  (Class) " />
-  <Message Timestamp="2013-11-27T18:49:00" Importance="Diagnostic" Text="'Bridge::Tonis' -  (Class): Es wurde keine Datei erstellt, da die 'AppliesToElement'-Methode der Vorlage 'StructTemplate.t4' als 'false' ausgewertet wurde." />
-  <Message Timestamp="2013-11-27T18:49:00" Importance="Diagnostic" Text="'Bridge::AmericanPizzas' -  (Class): Es wurde keine Datei erstellt, da die 'AppliesToElement'-Methode der Vorlage 'StructTemplate.t4' als 'false' ausgewertet wurde." />
-  <Message Timestamp="2013-11-27T18:49:00" Importance="Diagnostic" Text="'Bridge::Pizza' -  (Class): Es wurde keine Datei erstellt, da die 'AppliesToElement'-Methode der Vorlage 'StructTemplate.t4' als 'false' ausgewertet wurde." />
-  <Message Timestamp="2013-11-27T18:49:00" Importance="Diagnostic" Text="'Bridge::Napoli' -  (Class): Es wurde keine Datei erstellt, da die 'AppliesToElement'-Methode der Vorlage 'StructTemplate.t4' als 'false' ausgewertet wurde." />
-  <Message Timestamp="2013-11-27T18:49:00" Importance="Diagnostic" Text="'Bridge::Margherita' -  (Class): Es wurde keine Datei erstellt, da die 'AppliesToElement'-Methode der Vorlage 'StructTemplate.t4' als 'false' ausgewertet wurde." />
-  <Message Timestamp="2013-11-27T18:49:00" Importance="Diagnostic" Text="Die Auswahl enthielt 5 Elemente, die an keine Vorlage gebunden sind." />
-  <Message Timestamp="2013-11-27T18:49:00" Importance="Diagnostic" Text="'Bridge::' -  (InterfaceRealization): keine gebundene Vorlage." />
-  <Message Timestamp="2013-11-27T18:49:00" Importance="Diagnostic" Text="'Bridge::' -  (InterfaceRealization): keine gebundene Vorlage." />
-  <Message Timestamp="2013-11-27T18:49:00" Importance="Diagnostic" Text="'Bridge::' -  (Association): keine gebundene Vorlage." />
-  <Message Timestamp="2013-11-27T18:49:00" Importance="Diagnostic" Text="'4f1388de-3336-4624-be2e-6fcee98a839e' -  (Generalization): keine gebundene Vorlage." />
-  <Message Timestamp="2013-11-27T18:49:00" Importance="Diagnostic" Text="'85671292-e717-447b-9e39-c924e2e5c0e5' -  (Generalization): keine gebundene Vorlage." />
-  <Message Timestamp="2013-11-27T18:49:00" Importance="High" Text="Die Codegenerierung ist abgeschlossen. Fehler: 0. Warnungen: 0." />
+  <Message Timestamp="2013-11-28T08:34:30" Importance="High" Text="Die Codegenerierung oder Texttransformation wurde gestartet." />
+  <Message Timestamp="2013-11-28T08:34:30" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2013-11-28T08:34:30" Importance="Diagnostic" Text="Überschreiben = True" />
+  <Message Timestamp="2013-11-28T08:34:30" Importance="Diagnostic" Text="ProjectPath = ..\BridgeLib\BridgeLib.csproj" />
+  <Message Timestamp="2013-11-28T08:34:30" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2013-11-28T08:34:30" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2013-11-28T08:34:30" Importance="Diagnostic" Text="TemplateFilePath = E:\APPLICATIONS\VISUALSTUDIO2012\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2013-11-28T08:34:30" Importance="Diagnostic" Text="ResolvedTemplateFilePath = E:\APPLICATIONS\VISUALSTUDIO2012\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2013-11-28T08:34:30" Importance="Medium" Text="Die Textvorlagenbindung von Bridge: 'ClassTemplate' wendet ClassTemplate.t4 an für: 'Bridge::Pizza' -  (Class) " />
+  <Message Timestamp="2013-11-28T08:34:31" Importance="Medium" Text="'Bridge::Pizza' -  (Class) : Erfolg (Datei ersetzt) - E:\ITZeug\Pizza\BridgeLib\GeneratedCode\Pizza.cs" />
+  <Message Timestamp="2013-11-28T08:34:31" Importance="Diagnostic" Text="Name = StructTemplate" />
+  <Message Timestamp="2013-11-28T08:34:31" Importance="Diagnostic" Text="Überschreiben = True" />
+  <Message Timestamp="2013-11-28T08:34:31" Importance="Diagnostic" Text="ProjectPath = ..\BridgeLib\BridgeLib.csproj" />
+  <Message Timestamp="2013-11-28T08:34:31" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2013-11-28T08:34:31" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2013-11-28T08:34:31" Importance="Diagnostic" Text="TemplateFilePath = E:\APPLICATIONS\VISUALSTUDIO2012\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2013-11-28T08:34:31" Importance="Diagnostic" Text="ResolvedTemplateFilePath = E:\APPLICATIONS\VISUALSTUDIO2012\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2013-11-28T08:34:31" Importance="Medium" Text="Die Textvorlagenbindung von Bridge: 'StructTemplate' wendet StructTemplate.t4 an für: 'Bridge::Pizza' -  (Class) " />
+  <Message Timestamp="2013-11-28T08:34:31" Importance="Diagnostic" Text="'Bridge::Pizza' -  (Class): Es wurde keine Datei erstellt, da die 'AppliesToElement'-Methode der Vorlage 'StructTemplate.t4' als 'false' ausgewertet wurde." />
+  <Message Timestamp="2013-11-28T08:34:31" Importance="High" Text="Die Codegenerierung ist abgeschlossen. Fehler: 0. Warnungen: 0." />
 </Log>
