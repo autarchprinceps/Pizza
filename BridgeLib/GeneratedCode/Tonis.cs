@@ -13,7 +13,7 @@ public class Tonis : Pizzeria
 {
 	public virtual string teig()
 	{
-		throw new System.NotImplementedException();
+		return "Schön dünner Teig für besonders knusprige Pizza";
 	}
 
 	public virtual int teigPreis()
@@ -23,7 +23,7 @@ public class Tonis : Pizzeria
 
 	public virtual string tomatensoße()
 	{
-		throw new System.NotImplementedException();
+		return "Traditionelle italienische Tomatensoße mit Oregano";
 	}
 
 	public virtual int tomatensoßePreis()
@@ -33,7 +33,7 @@ public class Tonis : Pizzeria
 
 	public virtual string käse()
 	{
-		throw new System.NotImplementedException();
+		return "";
 	}
 
     public virtual int käsePreis()
@@ -43,7 +43,7 @@ public class Tonis : Pizzeria
 
 	public virtual string salami()
 	{
-		throw new System.NotImplementedException();
+		return "Feinste Toskanasalami";
 	}
 
 	public virtual int salamiPreis()
@@ -53,7 +53,7 @@ public class Tonis : Pizzeria
 
 	public virtual string schinken()
 	{
-		throw new System.NotImplementedException();
+		return "Prosciutto Cotto";
 	}
 
 	public virtual int schinkenPreis()
@@ -63,7 +63,6 @@ public class Tonis : Pizzeria
 
 	public virtual string paprika()
 	{
-		throw new System.NotImplementedException();
 	}
 
 	public virtual int paprikaPreis()
@@ -73,7 +72,6 @@ public class Tonis : Pizzeria
 
 	public virtual string sardellen()
 	{
-		throw new System.NotImplementedException();
 	}
 
 	public virtual int sardellenPreis()

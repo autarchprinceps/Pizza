@@ -33,7 +33,7 @@ public class AmericanPizzas : Pizzeria
 
     public virtual string käse()
     {
-        throw new System.NotImplementedException();
+		return "Dicke Schicht stark schmelzendem Käses";
     }
 
     public virtual int käsePreis()
@@ -43,7 +43,7 @@ public class AmericanPizzas : Pizzeria
 
     public virtual string salami()
     {
-        throw new System.NotImplementedException();
+        return "Einfach etwas Salami";
     }
 
     public virtual int salamiPreis()
@@ -53,7 +53,7 @@ public class AmericanPizzas : Pizzeria
 
     public virtual string schinken()
     {
-        throw new System.NotImplementedException();
+        return "Einfach etwas Schinken";
     }
 
     public virtual int schinkenPreis()
@@ -63,7 +63,7 @@ public class AmericanPizzas : Pizzeria
 
     public virtual string paprika()
     {
-        throw new System.NotImplementedException();
+        return "Nur das minimal nötigste an Paprika";
     }
 
     public virtual int paprikaPreis()
@@ -73,7 +73,7 @@ public class AmericanPizzas : Pizzeria
 
     public virtual string sardellen()
     {
-        throw new System.NotImplementedException();
+        return "Etwas Fisch";
     }
 
     public virtual int sardellenPreis()
