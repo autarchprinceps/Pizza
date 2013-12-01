@@ -16,9 +16,10 @@ public class Napoli : Pizza
         return this.Pizzeria.teigPreis() + this.Pizzeria.tomatensoßePreis() + this.Pizzeria.käsePreis() + this.Pizzeria.sardellenPreis();
 	}
 
-	public override string rezept()
+	public override string[] rezept()
 	{
-        return this.Pizzeria.teig() + '\n' + this.Pizzeria.tomatensoße() + '\n' + this.Pizzeria.käse() + '\n' + this.Pizzeria.sardellen() + '\n';
+        string[] result = { this.Pizzeria.teig(), this.Pizzeria.tomatensoße(), this.Pizzeria.käse(), this.Pizzeria.sardellen() };
+        return result;
 	}
 
     public Napoli(Pizzeria laden)

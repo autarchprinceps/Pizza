@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="5f6f2d93-a946-4efb-a467-7cd97d560d4d" name="Bridge" linkedPackageId="dd1b5602-837d-408a-903d-9290664c2233" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="5f6f2d93-a946-4efb-a467-7cd97d560d4d" name="Bridge" linkedPackageId="dd1b5602-837d-408a-903d-9290664c2233" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
   <appliedStereotypesInternal>
     <stereotypeInstance Id="dd5f43ad-3e03-4b1e-b227-85b4f631b606" name="namespace" profile="CSharpProfile">
       <elementDefinition Id="6b7d9993-06dc-46f3-95d6-bcc713d3bcb7" />
@@ -2685,6 +2685,16 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter Id="c5cdf24e-e966-4d6f-b95c-5ea81a68df7f" direction="Return">
+                  <lowerValueInternal>
+                    <literalString Id="5f0493e8-0e11-489d-b079-5336d40d4c16" name="Lower" value="*">
+                      <elementDefinition Id="444d632d-9096-4ed4-8acd-5998a51fd4a7" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="2dd7ad9c-0825-4062-84e1-cbb4854d4322" name="Upper" value="*">
+                      <elementDefinition Id="d980d842-7e68-41db-b59f-bb0c4808f471" />
+                    </literalString>
+                  </upperValueInternal>
                   <elementDefinition Id="ec2c8cdc-2bb0-4c0d-9612-6b7825e5b7a0" />
                   <type_NamedElement>
                     <referencedTypeMoniker Id="1f31769c-a9a4-4a14-b352-b4ccfe8c09b1" LastKnownName="String" />
@@ -2970,6 +2980,16 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter Id="abdaba2b-037f-46b5-88bd-c6faa1b5c58c" direction="Return" isUnique="false">
+                  <lowerValueInternal>
+                    <literalString Id="66dbb684-166c-4058-856d-c15ad5023473" name="Lower" value="*">
+                      <elementDefinition Id="c05495a5-8e9f-4681-b7fa-abc5eefec0e0" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="a1ba0ee7-4165-426a-a895-5b877e7f45f2" name="Upper" value="*">
+                      <elementDefinition Id="b3013484-1418-42ae-8826-faacff082f34" />
+                    </literalString>
+                  </upperValueInternal>
                   <elementDefinition Id="43391ce4-83b1-4b7b-9917-894c7adb297e" />
                   <type_NamedElement>
                     <referencedTypeMoniker Id="1f31769c-a9a4-4a14-b352-b4ccfe8c09b1" LastKnownName="String" />
@@ -3153,6 +3173,16 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter Id="e2987acf-feb6-45fc-bc48-d17059164906" direction="Return" isUnique="false">
+                  <lowerValueInternal>
+                    <literalString Id="2bbf3335-ea77-45c6-bbf7-25f0a1253d6c" name="Lower" value="*">
+                      <elementDefinition Id="813d2588-b74c-421e-9dbe-8ab42d95358e" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="930f2212-aa32-45d0-aeb7-09ddf6e44170" name="Upper" value="*">
+                      <elementDefinition Id="a015e129-54a2-4b26-a77e-8a89bf269236" />
+                    </literalString>
+                  </upperValueInternal>
                   <elementDefinition Id="9ad13565-b091-4735-afa9-21cebb893720" />
                   <type_NamedElement>
                     <referencedTypeMoniker Id="1f31769c-a9a4-4a14-b352-b4ccfe8c09b1" LastKnownName="String" />
@@ -3280,6 +3310,21 @@
         <elementDefinition Id="d2a3fdf7-862c-4d40-acc1-f35a16f2fb31" />
       </referencedType>
     </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="168032e5-016f-41c3-b73a-05c8b2d0b326" name="Bestellungsprogramm" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="7fe49ed3-eeae-444c-b126-48dbce968e2e" />
+        <suppliersInternal>
+          <dependency Id="86143596-a05e-4759-ad0a-3e2b7d096055">
+            <classMoniker Id="15fc1cb7-065d-4cd3-8ddb-7788bdd2245c" LastKnownName="Pizza" />
+            <elementDefinition Id="3f50ec98-0f0a-4257-9d9a-079c1db23d37" />
+          </dependency>
+          <dependency Id="91b04c8e-e2b7-4adf-8b5f-139e77ad40a8">
+            <interfaceMoniker Id="7376d5cb-f7a8-46a0-8140-f2833c930459" LastKnownName="Pizzeria" />
+            <elementDefinition Id="792b6ad0-86c5-4294-8130-8dbfc442a41b" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
   </packagedElements>
   <package Id="dd1b5602-837d-408a-903d-9290664c2233" name="Bridge">
     <elementDefinition Id="27cf1625-6c87-4f71-8e54-b2467da74cba" />

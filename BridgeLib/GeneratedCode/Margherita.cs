@@ -16,9 +16,10 @@ public class Margherita : Pizza
         return this.Pizzeria.teigPreis() + this.Pizzeria.tomatensoßePreis() + this.Pizzeria.käsePreis();
 	}
 
-	public override string rezept()
+	public override string[] rezept()
 	{
-        return this.Pizzeria.teig() + '\n' + this.Pizzeria.tomatensoße() + '\n' + this.Pizzeria.käse() + '\n';
+        string[] result = { this.Pizzeria.teig(), this.Pizzeria.tomatensoße(), this.Pizzeria.käse() };
+        return result;
 	}
 
     public Margherita(Pizzeria laden)

@@ -33,7 +33,7 @@ public class Tonis : Pizzeria
 
 	public virtual string käse()
 	{
-		return "";
+		return "Etwas Käse";
 	}
 
     public virtual int käsePreis()
@@ -63,6 +63,7 @@ public class Tonis : Pizzeria
 
 	public virtual string paprika()
 	{
+        return "Etwas Paprika";
 	}
 
 	public virtual int paprikaPreis()
@@ -72,6 +73,7 @@ public class Tonis : Pizzeria
 
 	public virtual string sardellen()
 	{
+        return "Etwas Fisch";
 	}
 
 	public virtual int sardellenPreis()

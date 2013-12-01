@@ -17,7 +17,7 @@ public abstract class Pizza
 		set;
 	}
 
-	public abstract string rezept();
+	public abstract string[] rezept();
 
 	public abstract int kosten();
 

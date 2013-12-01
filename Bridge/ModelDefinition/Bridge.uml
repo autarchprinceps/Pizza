@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
   dslVersion="1.0.0.0"
   Id="27cf1625-6c87-4f71-8e54-b2467da74cba"
   name="Bridge" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
@@ -3505,6 +3505,18 @@
                 <parameter
                   Id="ec2c8cdc-2bb0-4c0d-9612-6b7825e5b7a0"
                   direction="Return">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="444d632d-9096-4ed4-8acd-5998a51fd4a7"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="d980d842-7e68-41db-b59f-bb0c4808f471"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
                   <type_NamedElement>
                     <primitiveTypeMoniker
                       Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
@@ -3880,6 +3892,18 @@
                   Id="43391ce4-83b1-4b7b-9917-894c7adb297e"
                   direction="Return"
                   isUnique="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="c05495a5-8e9f-4681-b7fa-abc5eefec0e0"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="b3013484-1418-42ae-8826-faacff082f34"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
                   <type_NamedElement>
                     <primitiveTypeMoniker
                       Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
@@ -4129,6 +4153,18 @@
                   Id="9ad13565-b091-4735-afa9-21cebb893720"
                   direction="Return"
                   isUnique="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="813d2588-b74c-421e-9dbe-8ab42d95358e"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="a015e129-54a2-4b26-a77e-8a89bf269236"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
                   <type_NamedElement>
                     <primitiveTypeMoniker
                       Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
@@ -4183,6 +4219,31 @@
             </ownedParameters>
           </operation>
         </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="7fe49ed3-eeae-444c-b126-48dbce968e2e"
+        name="Bestellungsprogramm"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="3f50ec98-0f0a-4257-9d9a-079c1db23d37">
+            <classMoniker
+              Id="a28da954-6351-4b9b-b8b3-f384c9ab6726"
+              LastKnownName="Pizza"
+              LastKnownLocation="Bridge.uml" />
+          </dependency>
+          <dependency
+            Id="792b6ad0-86c5-4294-8130-8dbfc442a41b">
+            <interfaceMoniker
+              Id="bc2ad8f8-3f51-474e-a827-3bbbacb09799"
+              LastKnownName="Pizzeria"
+              LastKnownLocation="Bridge.uml" />
+          </dependency>
+        </suppliersInternal>
       </class>
     </packageHasNamedElement>
   </packagedElements>
