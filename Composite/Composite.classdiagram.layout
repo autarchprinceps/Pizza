@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Composite">
+  <logicalClassDesignerModelMoniker Id="6415954a-85fb-45c6-b6fd-25803939b5ad" />
+  <nestedChildShapes>
+    <classShape Id="c7e39a41-3e52-4576-9a98-7008d3e4778e" absoluteBounds="7.625, 2.25, 1.5, 0.90234373509883881" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="435b3803-9f2c-47aa-9097-16c91c7dabc0" LastKnownName="Belag" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="b669ad25-822b-44ab-87d7-1efd8a4c5622" absoluteBounds="7.64, 2.64, 1.4700000000000002, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="1f22aac7-b951-4a96-8b6f-ca4560aff3ff" absoluteBounds="7.64, 2.8511718675494193, 1.4700000000000002, 0.2011718675494194" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>

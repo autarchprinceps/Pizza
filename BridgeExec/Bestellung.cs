@@ -35,11 +35,19 @@ namespace BridgeExec
         {
             var m = numMar.Value;
             var n = numNap.Value;
-            List<String> r = new List<string>();
+            List<string> r = new List<string>();
             r.Add("Rezept:");
             Pizzeria laden = raAm.Checked ? (Pizzeria)new AmericanPizzas() : (Pizzeria)new Tonis();
-            if (m > 0) r.Add((new Margherita(laden)).rezept());
-            if (n > 0) r.Add((new Napoli(laden)).rezept());
+            if (m > 0)
+            {
+                var v = (new Margherita(laden)).rezept();
+                foreach (var x in v) r.Add(x);
+            }
+            if (n > 0)
+            {
+                var v = (new Napoli(laden)).rezept();
+                foreach (var x in v) r.Add(x);
+            }
             Rezept.Lines = r.ToArray();
         }
     }
