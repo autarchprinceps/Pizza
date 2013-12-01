@@ -9,8 +9,6 @@ public static class Preis {
     public static Dictionary<belag, int> belagpay = new Dictionary<belag,int>(){ {cheese, 1}, {salami, 2} };
 
     public static int preis(size g, List<belag> b) {
-        var result = sizepay[g];
-        foreach (var x in b) result += belagpay[x];
-        return result;
+        return sizepay[g] + b.Sum((bel) => belagpay[bel]);
     }
 }
