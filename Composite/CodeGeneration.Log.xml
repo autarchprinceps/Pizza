@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///D:/APPLICATIONS/VISUAL STUDIO 2012/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Codegenerierungs-/Texttransformationsprotokoll">
+  <MessageClass Name="Message" Label="Meldung" Option="Informationsmeldungen anzeigen" />
+  <MessageClass Name="Warning" Label="Warnung" Option="Warnungen anzeigen" />
+  <MessageClass Name="Error" Label="Fehler" Option="Fehler anzeigen" />
+  <MessageClass Name="Property" Label="Eigenschaft" Option="Metadaten anzeigen" />
+  <MessageClass Name="Diagnostic" Label="Meldung" Option="Diagnosemeldungen anzeigen" />
+  <Message Timestamp="2013-12-01T21:24:38" Importance="High" Text="Die Codegenerierung oder Texttransformation wurde gestartet." />
+  <Message Timestamp="2013-12-01T21:24:38" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2013-12-01T21:24:38" Importance="Diagnostic" Text="Überschreiben = True" />
+  <Message Timestamp="2013-12-01T21:24:38" Importance="Diagnostic" Text="ProjectPath = ..\CompositeLib\CompositeLib.csproj" />
+  <Message Timestamp="2013-12-01T21:24:38" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2013-12-01T21:24:38" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2013-12-01T21:24:38" Importance="Diagnostic" Text="TemplateFilePath = D:\APPLICATIONS\VISUAL STUDIO 2012\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2013-12-01T21:24:38" Importance="Diagnostic" Text="ResolvedTemplateFilePath = D:\APPLICATIONS\VISUAL STUDIO 2012\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2013-12-01T21:24:38" Importance="Medium" Text="Die Textvorlagenbindung von Composite: 'ClassTemplate' wendet ClassTemplate.t4 an für: 'Composite::Belag' -  (Class), 'Composite::Pizza' -  (Class), 'Composite::Piccolo' -  (Class), 'Composite::Standard' -  (Class), 'Composite::Grande' -  (Class), 'Composite::Zusammensetzung' -  (Class), 'Composite::Käse' -  (Class), 'Composite::Tomaten' -  (Class), 'Composite::Salami' -  (Class), 'Composite::Pilze' -  (Class), 'Composite::Sardellen' -  (Class), 'Composite::Schinken' -  (Class) " />
+  <Message Timestamp="2013-12-01T21:24:39" Importance="Medium" Text="Projekt hinzugefügt: D:\ITZeug\Pizza\CompositeLib\CompositeLib.csproj" />
+  <Message Timestamp="2013-12-01T21:24:39" Importance="Medium" Text="'Composite::Belag' -  (Class) : Erfolg (Datei erstellt) - D:\ITZeug\Pizza\CompositeLib\GeneratedCode\Belag.cs" />
+  <Message Timestamp="2013-12-01T21:24:40" Importance="Medium" Text="'Composite::Pizza' -  (Class) : Erfolg (Datei erstellt) - D:\ITZeug\Pizza\CompositeLib\GeneratedCode\Pizza.cs" />
+  <Message Timestamp="2013-12-01T21:24:40" Importance="Medium" Text="'Composite::Piccolo' -  (Class) : Erfolg (Datei erstellt) - D:\ITZeug\Pizza\CompositeLib\GeneratedCode\Piccolo.cs" />
+  <Message Timestamp="2013-12-01T21:24:40" Importance="Medium" Text="'Composite::Standard' -  (Class) : Erfolg (Datei erstellt) - D:\ITZeug\Pizza\CompositeLib\GeneratedCode\Standard.cs" />
+  <Message Timestamp="2013-12-01T21:24:41" Importance="Medium" Text="'Composite::Grande' -  (Class) : Erfolg (Datei erstellt) - D:\ITZeug\Pizza\CompositeLib\GeneratedCode\Grande.cs" />
+  <Message Timestamp="2013-12-01T21:24:41" Importance="Medium" Text="'Composite::Zusammensetzung' -  (Class) : Erfolg (Datei erstellt) - D:\ITZeug\Pizza\CompositeLib\GeneratedCode\Zusammensetzung.cs" />
+  <Message Timestamp="2013-12-01T21:24:41" Importance="Medium" Text="'Composite::Käse' -  (Class) : Erfolg (Datei erstellt) - D:\ITZeug\Pizza\CompositeLib\GeneratedCode\Käse.cs" />
+  <Message Timestamp="2013-12-01T21:24:42" Importance="Medium" Text="'Composite::Tomaten' -  (Class) : Erfolg (Datei erstellt) - D:\ITZeug\Pizza\CompositeLib\GeneratedCode\Tomaten.cs" />
+  <Message Timestamp="2013-12-01T21:24:42" Importance="Medium" Text="'Composite::Salami' -  (Class) : Erfolg (Datei erstellt) - D:\ITZeug\Pizza\CompositeLib\GeneratedCode\Salami.cs" />
+  <Message Timestamp="2013-12-01T21:24:42" Importance="Medium" Text="'Composite::Pilze' -  (Class) : Erfolg (Datei erstellt) - D:\ITZeug\Pizza\CompositeLib\GeneratedCode\Pilze.cs" />
+  <Message Timestamp="2013-12-01T21:24:43" Importance="Medium" Text="'Composite::Sardellen' -  (Class) : Erfolg (Datei erstellt) - D:\ITZeug\Pizza\CompositeLib\GeneratedCode\Sardellen.cs" />
+  <Message Timestamp="2013-12-01T21:24:43" Importance="Medium" Text="'Composite::Schinken' -  (Class) : Erfolg (Datei erstellt) - D:\ITZeug\Pizza\CompositeLib\GeneratedCode\Schinken.cs" />
+  <Message Timestamp="2013-12-01T21:24:43" Importance="Diagnostic" Text="Name = StructTemplate" />
+  <Message Timestamp="2013-12-01T21:24:43" Importance="Diagnostic" Text="Überschreiben = True" />
+  <Message Timestamp="2013-12-01T21:24:43" Importance="Diagnostic" Text="ProjectPath = ..\CompositeLib\CompositeLib.csproj" />
+  <Message Timestamp="2013-12-01T21:24:43" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2013-12-01T21:24:43" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2013-12-01T21:24:43" Importance="Diagnostic" Text="TemplateFilePath = D:\APPLICATIONS\VISUAL STUDIO 2012\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2013-12-01T21:24:43" Importance="Diagnostic" Text="ResolvedTemplateFilePath = D:\APPLICATIONS\VISUAL STUDIO 2012\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2013-12-01T21:24:43" Importance="Medium" Text="Die Textvorlagenbindung von Composite: 'StructTemplate' wendet StructTemplate.t4 an für: 'Composite::Belag' -  (Class), 'Composite::Pizza' -  (Class), 'Composite::Piccolo' -  (Class), 'Composite::Standard' -  (Class), 'Composite::Grande' -  (Class), 'Composite::Zusammensetzung' -  (Class), 'Composite::Käse' -  (Class), 'Composite::Tomaten' -  (Class), 'Composite::Salami' -  (Class), 'Composite::Pilze' -  (Class), 'Composite::Sardellen' -  (Class), 'Composite::Schinken' -  (Class) " />
+  <Message Timestamp="2013-12-01T21:24:43" Importance="Diagnostic" Text="'Composite::Belag' -  (Class): Es wurde keine Datei erstellt, da die 'AppliesToElement'-Methode der Vorlage 'StructTemplate.t4' als 'false' ausgewertet wurde." />
+  <Message Timestamp="2013-12-01T21:24:43" Importance="Diagnostic" Text="'Composite::Pizza' -  (Class): Es wurde keine Datei erstellt, da die 'AppliesToElement'-Methode der Vorlage 'StructTemplate.t4' als 'false' ausgewertet wurde." />
+  <Message Timestamp="2013-12-01T21:24:43" Importance="Diagnostic" Text="'Composite::Piccolo' -  (Class): Es wurde keine Datei erstellt, da die 'AppliesToElement'-Methode der Vorlage 'StructTemplate.t4' als 'false' ausgewertet wurde." />
+  <Message Timestamp="2013-12-01T21:24:43" Importance="Diagnostic" Text="'Composite::Standard' -  (Class): Es wurde keine Datei erstellt, da die 'AppliesToElement'-Methode der Vorlage 'StructTemplate.t4' als 'false' ausgewertet wurde." />
+  <Message Timestamp="2013-12-01T21:24:43" Importance="Diagnostic" Text="'Composite::Grande' -  (Class): Es wurde keine Datei erstellt, da die 'AppliesToElement'-Methode der Vorlage 'StructTemplate.t4' als 'false' ausgewertet wurde." />
+  <Message Timestamp="2013-12-01T21:24:43" Importance="Diagnostic" Text="'Composite::Zusammensetzung' -  (Class): Es wurde keine Datei erstellt, da die 'AppliesToElement'-Methode der Vorlage 'StructTemplate.t4' als 'false' ausgewertet wurde." />
+  <Message Timestamp="2013-12-01T21:24:43" Importance="Diagnostic" Text="'Composite::Käse' -  (Class): Es wurde keine Datei erstellt, da die 'AppliesToElement'-Methode der Vorlage 'StructTemplate.t4' als 'false' ausgewertet wurde." />
+  <Message Timestamp="2013-12-01T21:24:43" Importance="Diagnostic" Text="'Composite::Tomaten' -  (Class): Es wurde keine Datei erstellt, da die 'AppliesToElement'-Methode der Vorlage 'StructTemplate.t4' als 'false' ausgewertet wurde." />
+  <Message Timestamp="2013-12-01T21:24:43" Importance="Diagnostic" Text="'Composite::Salami' -  (Class): Es wurde keine Datei erstellt, da die 'AppliesToElement'-Methode der Vorlage 'StructTemplate.t4' als 'false' ausgewertet wurde." />
+  <Message Timestamp="2013-12-01T21:24:43" Importance="Diagnostic" Text="'Composite::Pilze' -  (Class): Es wurde keine Datei erstellt, da die 'AppliesToElement'-Methode der Vorlage 'StructTemplate.t4' als 'false' ausgewertet wurde." />
+  <Message Timestamp="2013-12-01T21:24:44" Importance="Diagnostic" Text="'Composite::Sardellen' -  (Class): Es wurde keine Datei erstellt, da die 'AppliesToElement'-Methode der Vorlage 'StructTemplate.t4' als 'false' ausgewertet wurde." />
+  <Message Timestamp="2013-12-01T21:24:44" Importance="Diagnostic" Text="'Composite::Schinken' -  (Class): Es wurde keine Datei erstellt, da die 'AppliesToElement'-Methode der Vorlage 'StructTemplate.t4' als 'false' ausgewertet wurde." />
+  <Message Timestamp="2013-12-01T21:24:44" Importance="Diagnostic" Text="Die Auswahl enthielt 12 Elemente, die an keine Vorlage gebunden sind." />
+  <Message Timestamp="2013-12-01T21:24:44" Importance="Diagnostic" Text="'Composite::' -  (Association): keine gebundene Vorlage." />
+  <Message Timestamp="2013-12-01T21:24:44" Importance="Diagnostic" Text="'229f285a-691e-4f41-87e8-658dd7401eae' -  (Generalization): keine gebundene Vorlage." />
+  <Message Timestamp="2013-12-01T21:24:44" Importance="Diagnostic" Text="'4b6ec215-7c4e-4f0c-9a45-e21625d2b87a' -  (Generalization): keine gebundene Vorlage." />
+  <Message Timestamp="2013-12-01T21:24:44" Importance="Diagnostic" Text="'1d4acd0c-ffd1-47c0-8512-a97282da4bfd' -  (Generalization): keine gebundene Vorlage." />
+  <Message Timestamp="2013-12-01T21:24:44" Importance="Diagnostic" Text="'2a5a837a-fb53-4f23-93e6-a10efa40cf46' -  (Generalization): keine gebundene Vorlage." />
+  <Message Timestamp="2013-12-01T21:24:44" Importance="Diagnostic" Text="'Composite::' -  (Association): keine gebundene Vorlage." />
+  <Message Timestamp="2013-12-01T21:24:44" Importance="Diagnostic" Text="'6a6e2447-9d5a-4dce-ac7f-dc9bc4e2cb65' -  (Generalization): keine gebundene Vorlage." />
+  <Message Timestamp="2013-12-01T21:24:44" Importance="Diagnostic" Text="'0496e4f1-93a4-47de-b906-283975926c3c' -  (Generalization): keine gebundene Vorlage." />
+  <Message Timestamp="2013-12-01T21:24:44" Importance="Diagnostic" Text="'0848e930-da5f-4e5e-828d-3f5b96065e4a' -  (Generalization): keine gebundene Vorlage." />
+  <Message Timestamp="2013-12-01T21:24:44" Importance="Diagnostic" Text="'925b2fa2-713b-4be5-b09f-e5e91eb1a68c' -  (Generalization): keine gebundene Vorlage." />
+  <Message Timestamp="2013-12-01T21:24:44" Importance="Diagnostic" Text="'04a83e95-ca3e-42fd-b5cc-a48e9bdd773a' -  (Generalization): keine gebundene Vorlage." />
+  <Message Timestamp="2013-12-01T21:24:44" Importance="Diagnostic" Text="'a14f3465-c8fe-4eb1-9be5-3169b236f6b6' -  (Generalization): keine gebundene Vorlage." />
+  <Message Timestamp="2013-12-01T21:24:44" Importance="High" Text="Die Codegenerierung ist abgeschlossen. Fehler: 0. Warnungen: 0." />
+</Log>
