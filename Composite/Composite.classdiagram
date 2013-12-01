@@ -16,8 +16,385 @@
   </profileInstances>
   <packagedElements>
     <logicalClassDesignerModelHasTypes>
-      <class Id="435b3803-9f2c-47aa-9097-16c91c7dabc0" name="Belag" isAbstract="false" isLeaf="false" isActiveClass="false">
+      <class Id="435b3803-9f2c-47aa-9097-16c91c7dabc0" name="Belag" isAbstract="true" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="3633f0dc-58bf-43f8-9f88-c8f51c478bd8" />
+        <ownedOperationsInternal>
+          <operation Id="94239c65-fd11-43af-b24d-b74b15ec5663" name="preis" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="c8b9f669-228c-4a6c-a95f-076c129737aa" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="885cd53c-fa62-482f-8c09-cbede0a143f6" direction="Return" isUnique="false">
+                  <elementDefinition Id="d603755c-1625-4341-8ca7-b81662ae3413" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="7d5ac329-2251-4961-9936-42080b41e67b" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="7d5ac329-2251-4961-9936-42080b41e67b" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="d1872854-831c-4e0f-9113-a2fd1c15cd4e" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="1eacf781-a20a-47c7-9e99-9c4e422eea42" name="Pizza" isAbstract="true" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="cc484260-6084-4419-a7f4-31e6ae7dbd06" />
+        <targetEnds>
+          <association Id="b81f7d8f-ca1f-4860-b62a-aea16570cb5e" isDerived="false" sourceEndRoleName="Pizza" targetEndRoleName="Belag" isLeaf="false" isAbstract="false">
+            <classMoniker Id="435b3803-9f2c-47aa-9097-16c91c7dabc0" LastKnownName="Belag" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="329f14b2-033f-4b2d-88e8-a8d8fbba7c6b" name="Pizza" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="479287dc-bffb-41b9-8552-e9c09eb5e918" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e66b2cb1-7485-42ee-821b-c63b9d78f15e" name="Belag" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="3c09141a-df8b-42e3-8d3f-f186983c484b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6dc3d6ea-af5c-4c10-bbb1-4c90902c5618" />
+          </association>
+        </targetEnds>
+        <ownedOperationsInternal>
+          <operation Id="6f85e86a-58f4-4e4e-a9fa-9a4791d5cce6" name="preis" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d070d5d1-f225-4ea0-9004-57451225a3da" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="61c568f0-ba09-46d8-9aac-f3f870b8eb50" direction="Return" isUnique="false">
+                  <elementDefinition Id="49a59091-bb08-42b9-b6ae-9a4f92b26714" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="7d5ac329-2251-4961-9936-42080b41e67b" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="d58f9ed0-69bb-481f-9062-5f774aa0db7e" name="Piccolo" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="be047da8-9748-443e-a3f3-a54ce943339d" />
+        <generalsInternal>
+          <generalization Id="20ee8380-1c2d-4324-98ac-15e7353cfea8" isSubstitutable="false">
+            <classMoniker Id="1eacf781-a20a-47c7-9e99-9c4e422eea42" LastKnownName="Pizza" />
+            <elementDefinition Id="229f285a-691e-4f41-87e8-658dd7401eae" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="3b6d706c-fda6-47c8-9809-3d73a8139c8a" name="preis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="5ebb3ae5-c8d5-44e1-b7cc-7d18593ddb1b" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="5f6452ac-af38-41bf-b3bf-a9b1438f6f11" direction="Return" isUnique="false">
+                  <elementDefinition Id="5f02ecc1-535b-423c-b0ef-034bcfe8c71f" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="7d5ac329-2251-4961-9936-42080b41e67b" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="c07ace5d-0dbb-4aca-9fd6-49b4d0bc016f" name="Standard" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="79939324-62d3-4115-8425-7041ff73c545" />
+        <generalsInternal>
+          <generalization Id="ad62621a-03c7-4502-96ee-7c249d7d96e5" isSubstitutable="false">
+            <classMoniker Id="1eacf781-a20a-47c7-9e99-9c4e422eea42" LastKnownName="Pizza" />
+            <elementDefinition Id="4b6ec215-7c4e-4f0c-9a45-e21625d2b87a" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="1dc1bf89-6ee9-472d-8114-9e5698e644b5" name="preis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="0265a7d4-ff11-4fe8-ba36-253294c9f590" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="c99744c7-9139-4dd1-be7a-f8f7031e78e7" direction="Return" isUnique="false">
+                  <elementDefinition Id="42fd90c5-c1e3-45d2-a032-80e3b48c2569" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="7d5ac329-2251-4961-9936-42080b41e67b" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="e8eedeab-e27d-42a5-b11c-99b51a3bc55c" name="Grande" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f389ffde-446f-4f1e-9674-dadd2a6e3b3a" />
+        <generalsInternal>
+          <generalization Id="05ee47b3-25b4-4b94-8900-47dea846dfc7" isSubstitutable="false">
+            <classMoniker Id="1eacf781-a20a-47c7-9e99-9c4e422eea42" LastKnownName="Pizza" />
+            <elementDefinition Id="1d4acd0c-ffd1-47c0-8512-a97282da4bfd" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="9be74a6f-2b75-4384-b700-63af96995e5a" name="preis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="382bf13d-7253-431f-a0bd-4f6f02009b24" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="3588fe89-0cf9-49f3-876a-77c63af2cd2c" direction="Return" isUnique="false">
+                  <elementDefinition Id="68e7aec3-92dd-4bf2-87e3-d2f7b7116716" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="7d5ac329-2251-4961-9936-42080b41e67b" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="bd32cf5b-d398-4d51-8032-c0004fb8d6a3" name="Zusammensetzung" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="70e296eb-98e3-4363-beab-a50db411fd68" />
+        <generalsInternal>
+          <generalization Id="100c8858-f4b7-4465-ba4d-5c740dee14b6" isSubstitutable="false">
+            <classMoniker Id="435b3803-9f2c-47aa-9097-16c91c7dabc0" LastKnownName="Belag" />
+            <elementDefinition Id="2a5a837a-fb53-4f23-93e6-a10efa40cf46" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association Id="949d4282-f329-4ccf-b9d2-c0859ad8e708" isDerived="false" sourceEndRoleName="Zusammensetzung" targetEndRoleName="Belag" isLeaf="false" isAbstract="false">
+            <classMoniker Id="435b3803-9f2c-47aa-9097-16c91c7dabc0" LastKnownName="Belag" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c19196c8-a960-4e22-b236-3531a1bfcac3" name="Zusammensetzung" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f92f768f-169a-48f0-bc11-17b23afe4359" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5eae2d78-6520-472f-9c45-9cc6bbf8037b" name="Belag" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <lowerValueInternal>
+                    <literalString Id="0a91b142-9b79-4ae4-9a42-9e639906d8f6" name="Lower" value="1">
+                      <elementDefinition Id="5131b99c-2915-4925-9de8-d52eabd332ca" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="a2be3578-39fc-4df1-a380-937754434133" name="Upper" value="*">
+                      <elementDefinition Id="e5cf0a5f-b670-465b-a39c-1978553e7ed2" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="5b61c6fe-14bd-4819-aa78-464cc20d5397" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="7f0648c0-8899-41de-8f04-377107eae5aa" />
+          </association>
+        </targetEnds>
+        <ownedOperationsInternal>
+          <operation Id="426caf58-727b-4e84-ac6f-78b325f997e5" name="preis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="1c3b507b-5a88-4e76-8047-290fd9777ddd" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="a7b6cd1c-0a7a-4a66-9c7c-a28a1c40ffde" direction="Return" isUnique="false">
+                  <elementDefinition Id="4f30ce9b-5b1c-40a0-af85-8025ccb1dda5" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="7d5ac329-2251-4961-9936-42080b41e67b" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="2fd5f490-f4de-4434-a101-c96608e015e7" name="add" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a727303c-aa44-4b16-bb20-f89358e71554" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="58719753-191a-4f1b-830f-12f795f0ec01" name="belag" direction="In" isUnique="false">
+                  <elementDefinition Id="3267580f-a3e1-4b4c-9c98-92f014c2d2e7" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="3d9dbd27-e1a8-45ef-87d6-aecf8e453cc8" LastKnownName="Belag" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="5a99963c-6516-47a5-bb2b-d364e4242054" name="remove" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="3a9c08bb-9035-4fbd-b6f4-0c93b2c561c4" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="77c7cf1b-d750-46d2-988c-8480936f6f63" name="belag" direction="In" isUnique="false">
+                  <elementDefinition Id="04fd35c0-8807-43a9-89c5-6cd8a8a6d43b" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="3d9dbd27-e1a8-45ef-87d6-aecf8e453cc8" LastKnownName="Belag" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="3d9dbd27-e1a8-45ef-87d6-aecf8e453cc8" name="Belag" isAbstract="false" isLeaf="false" cachedFullName="Composite::Belag">
+        <elementDefinition Id="3633f0dc-58bf-43f8-9f88-c8f51c478bd8" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="8d8c072a-770f-412c-a027-5e0d0584effb" name="Käse" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="fd4f648b-f257-48ae-85a4-ffde67b652c1" />
+        <generalsInternal>
+          <generalization Id="dccdfdb8-429f-4657-8dc3-68ba9ed4a54c" isSubstitutable="false">
+            <classMoniker Id="435b3803-9f2c-47aa-9097-16c91c7dabc0" LastKnownName="Belag" />
+            <elementDefinition Id="6a6e2447-9d5a-4dce-ac7f-dc9bc4e2cb65" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="9c12b025-65cb-4f84-b8df-9d3de72680f8" name="preis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="e5abb083-6237-4002-bd0f-a64dc40c1287" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="3dfcbcb4-86cc-4cbe-89f1-d4f9e25ded36" direction="Return" isUnique="false">
+                  <elementDefinition Id="f9305f99-a5de-4d87-85b0-198f881bd995" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="7d5ac329-2251-4961-9936-42080b41e67b" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="26764f77-cbc8-418a-9569-9e8462ede952" name="Tomaten" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="fe4ed0d5-8eef-49d1-a3f3-b4de89eca778" />
+        <generalsInternal>
+          <generalization Id="ce6aabe5-c367-48b9-bf30-beab97309548" isSubstitutable="false">
+            <classMoniker Id="435b3803-9f2c-47aa-9097-16c91c7dabc0" LastKnownName="Belag" />
+            <elementDefinition Id="0496e4f1-93a4-47de-b906-283975926c3c" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="eeaa9422-bc67-45b2-9daf-6a7004a8603e" name="preis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="7e937d6a-7577-46ce-9806-80ec4dab0757" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="fd9e69f8-bc09-4407-9c1d-4d465e7f3cfb" direction="Return" isUnique="false">
+                  <elementDefinition Id="1969d1dd-dbe7-4153-9177-8b55a2bba7a8" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="7d5ac329-2251-4961-9936-42080b41e67b" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="095cec5f-1dda-4998-9e90-ef180be44df4" name="Salami" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d5fd8c2e-5535-4c59-b51f-e33b69cfb160" />
+        <generalsInternal>
+          <generalization Id="91ea53ec-673b-45ef-9976-716700b598cf" isSubstitutable="false">
+            <classMoniker Id="435b3803-9f2c-47aa-9097-16c91c7dabc0" LastKnownName="Belag" />
+            <elementDefinition Id="0848e930-da5f-4e5e-828d-3f5b96065e4a" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="2b6aa4f2-3550-4ac4-9d69-2e48ca6f6f6c" name="preis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="22a2594b-c009-4d36-baa0-8b6da704938e" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="40d77e1b-ae05-43f4-9a9b-57a8170ab836" direction="Return" isUnique="false">
+                  <elementDefinition Id="2d9ba1fa-9036-40a2-947c-014047129d84" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="7d5ac329-2251-4961-9936-42080b41e67b" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="d82ece56-16bb-4119-bbe7-b2087532a683" name="Pilze" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="9c7d76a2-d77d-437d-aa72-78ceaddf5f74" />
+        <generalsInternal>
+          <generalization Id="814c0c72-ec8f-49cf-94c8-25fac348a2fb" isSubstitutable="false">
+            <classMoniker Id="435b3803-9f2c-47aa-9097-16c91c7dabc0" LastKnownName="Belag" />
+            <elementDefinition Id="925b2fa2-713b-4be5-b09f-e5e91eb1a68c" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="7c5ebc0a-22e2-483c-a288-8b007de151a1" name="preis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="e51a12c5-987c-4b8b-9de8-b3b55db73624" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="620a5fb3-7336-45fd-aa74-2b79fa44dfd4" direction="Return" isUnique="false">
+                  <elementDefinition Id="a38df00d-e9da-4e8f-96bd-b250c9f70446" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="7d5ac329-2251-4961-9936-42080b41e67b" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="def9d6f1-9e3c-4dae-b29a-6f46d027893e" name="Sardellen" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e90d4f5c-519e-448f-bf85-fa5fff089e8e" />
+        <generalsInternal>
+          <generalization Id="66c51812-a304-420d-afe8-d6c0c7f8c13f" isSubstitutable="false">
+            <classMoniker Id="435b3803-9f2c-47aa-9097-16c91c7dabc0" LastKnownName="Belag" />
+            <elementDefinition Id="04a83e95-ca3e-42fd-b5cc-a48e9bdd773a" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="fcb71e36-8b7c-4e68-a7dc-093289786b57" name="preis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="c219b3f4-8a68-4bf7-b31b-5f067ad4d2fc" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="91f7fc61-a94b-4711-bc33-479c97b57260" direction="Return" isUnique="false">
+                  <elementDefinition Id="9deb7d8f-89fd-48a8-8257-6b508f5ec5ab" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="7d5ac329-2251-4961-9936-42080b41e67b" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="3ae7b833-c71f-418c-b111-8a6b9034f28a" name="Schinken" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="794ff1c7-aced-495f-bd91-51b2476515c4" />
+        <generalsInternal>
+          <generalization Id="a8b96f24-ffbe-4a7e-907a-285f275b85db" isSubstitutable="false">
+            <classMoniker Id="435b3803-9f2c-47aa-9097-16c91c7dabc0" LastKnownName="Belag" />
+            <elementDefinition Id="a14f3465-c8fe-4eb1-9be5-3169b236f6b6" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="61d0c0b2-4454-423a-b378-f57f8fa8c877" name="preis" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="e2e2300f-0fdb-4caf-bc1d-11e18cb1fbc0" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="71bcdb6a-ef18-4bb3-ba8e-79c13b339888" direction="Return" isUnique="false">
+                  <elementDefinition Id="a3f98375-a3d6-4d5a-802b-ee751a94de7c" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="7d5ac329-2251-4961-9936-42080b41e67b" LastKnownName="int" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
   </packagedElements>
