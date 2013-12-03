@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///E:/PROGRAMME (X86)/MICROSOFT VISUAL STUDIO 11.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2013-12-03T23:05:03" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2013-12-03T23:05:03" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2013-12-03T23:05:03" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2013-12-03T23:05:03" Importance="Diagnostic" Text="ProjectPath = ..\VisitorLib\VisitorLib.csproj" />
+  <Message Timestamp="2013-12-03T23:05:03" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2013-12-03T23:05:03" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2013-12-03T23:05:03" Importance="Diagnostic" Text="TemplateFilePath = E:\PROGRAMME (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2013-12-03T23:05:03" Importance="Diagnostic" Text="ResolvedTemplateFilePath = E:\PROGRAMME (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2013-12-03T23:05:03" Importance="Medium" Text="Visitor's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'Visitor::Pizza' -  (Class), 'Visitor::Napoli' -  (Class), 'Visitor::Margherita' -  (Class), 'Visitor::Paolo' -  (Class), 'Visitor::Mauro' -  (Class), 'Visitor::Tonis' -  (Class), 'Visitor::AmericanPizzas' -  (Class) " />
+  <Message Timestamp="2013-12-03T23:05:03" Importance="Medium" Text="'Visitor::Pizza' -  (Class) : success (file replaced) - C:\Users\Groxar\Documents\GitHub\Pizza\VisitorLib\GeneratedCode\Pizza.cs" />
+  <Message Timestamp="2013-12-03T23:05:03" Importance="Medium" Text="'Visitor::Napoli' -  (Class) : success (file replaced) - C:\Users\Groxar\Documents\GitHub\Pizza\VisitorLib\GeneratedCode\Napoli.cs" />
+  <Message Timestamp="2013-12-03T23:05:03" Importance="Medium" Text="'Visitor::Margherita' -  (Class) : success (file replaced) - C:\Users\Groxar\Documents\GitHub\Pizza\VisitorLib\GeneratedCode\Margherita.cs" />
+  <Message Timestamp="2013-12-03T23:05:03" Importance="Medium" Text="'Visitor::Paolo' -  (Class) : success (file replaced) - C:\Users\Groxar\Documents\GitHub\Pizza\VisitorLib\GeneratedCode\Paolo.cs" />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Medium" Text="'Visitor::Mauro' -  (Class) : success (file replaced) - C:\Users\Groxar\Documents\GitHub\Pizza\VisitorLib\GeneratedCode\Mauro.cs" />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Medium" Text="'Visitor::Tonis' -  (Class) : success (file replaced) - C:\Users\Groxar\Documents\GitHub\Pizza\VisitorLib\GeneratedCode\Tonis.cs" />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Medium" Text="'Visitor::AmericanPizzas' -  (Class) : success (file replaced) - C:\Users\Groxar\Documents\GitHub\Pizza\VisitorLib\GeneratedCode\AmericanPizzas.cs" />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Diagnostic" Text="Name = InterfaceTemplate" />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Diagnostic" Text="ProjectPath = ..\VisitorLib\VisitorLib.csproj" />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Diagnostic" Text="TemplateFilePath = E:\PROGRAMME (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4" />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Diagnostic" Text="ResolvedTemplateFilePath = E:\PROGRAMME (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4" />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Medium" Text="Visitor's Text Template Binding: 'InterfaceTemplate' will apply InterfaceTemplate.t4 to: 'Visitor::KochRezeptVisitor' -  (Interface), 'Visitor::Koch' -  (Interface), 'Visitor::Pizzeria' -  (Interface) " />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Medium" Text="'Visitor::KochRezeptVisitor' -  (Interface) : success (file replaced) - C:\Users\Groxar\Documents\GitHub\Pizza\VisitorLib\GeneratedCode\KochRezeptVisitor.cs" />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Medium" Text="'Visitor::Koch' -  (Interface) : success (file replaced) - C:\Users\Groxar\Documents\GitHub\Pizza\VisitorLib\GeneratedCode\Koch.cs" />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Medium" Text="'Visitor::Pizzeria' -  (Interface) : success (file replaced) - C:\Users\Groxar\Documents\GitHub\Pizza\VisitorLib\GeneratedCode\Pizzeria.cs" />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Diagnostic" Text="Name = StructTemplate" />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Diagnostic" Text="ProjectPath = ..\VisitorLib\VisitorLib.csproj" />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Diagnostic" Text="TemplateFilePath = E:\PROGRAMME (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Diagnostic" Text="ResolvedTemplateFilePath = E:\PROGRAMME (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Medium" Text="Visitor's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'Visitor::Pizza' -  (Class), 'Visitor::Napoli' -  (Class), 'Visitor::Margherita' -  (Class), 'Visitor::Paolo' -  (Class), 'Visitor::Mauro' -  (Class), 'Visitor::Tonis' -  (Class), 'Visitor::AmericanPizzas' -  (Class) " />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Diagnostic" Text="'Visitor::Pizza' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Diagnostic" Text="'Visitor::Napoli' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Diagnostic" Text="'Visitor::Margherita' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Diagnostic" Text="'Visitor::Paolo' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Diagnostic" Text="'Visitor::Mauro' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Diagnostic" Text="'Visitor::Tonis' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Diagnostic" Text="'Visitor::AmericanPizzas' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Diagnostic" Text="The selection included 9 elements which were not bound to a template." />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Diagnostic" Text="'Visitor::' -  (Dependency): no bound template." />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Diagnostic" Text="'Visitor::' -  (Association): no bound template." />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Diagnostic" Text="'de2c3952-32c2-4e2f-88c2-901236e38213' -  (Generalization): no bound template." />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Diagnostic" Text="'99857843-6dbb-496e-b944-9448e62046d3' -  (Generalization): no bound template." />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Diagnostic" Text="'e6e331de-1847-4d3a-aa4b-cd8848f41f3f' -  (Generalization): no bound template." />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Diagnostic" Text="'Visitor::' -  (InterfaceRealization): no bound template." />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Diagnostic" Text="'Visitor::' -  (InterfaceRealization): no bound template." />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Diagnostic" Text="'Visitor::' -  (InterfaceRealization): no bound template." />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="Diagnostic" Text="'Visitor::' -  (InterfaceRealization): no bound template." />
+  <Message Timestamp="2013-12-03T23:05:04" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
+</Log>
