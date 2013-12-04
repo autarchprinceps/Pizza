@@ -3690,26 +3690,27 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="deab5902-e5f8-4eaf-84ba-36f4b3a0065b"
-                  name="laden"
-                  direction="In"
+                  Id="01dc0c34-8ddd-430d-9343-525a1b50475c"
+                  direction="Return"
                   isUnique="false">
                   <type_NamedElement>
-                    <undefinedTypeMoniker
-                      Id="4fd1a8b4-080c-46f9-81de-bf4b8d92767e"
-                      LastKnownName="Bridge::Pizzeria"
+                    <classMoniker
+                      Id="b8e29257-1cce-4756-bd16-574cbb2f7cb4"
+                      LastKnownName="Pizza"
                       LastKnownLocation="Visitor.uml" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="01dc0c34-8ddd-430d-9343-525a1b50475c"
-                  direction="Return">
+                  Id="62be1caa-20d4-4769-906f-d26ed64f7fb4"
+                  name="laden"
+                  direction="In"
+                  isUnique="false">
                   <type_NamedElement>
-                    <undefinedTypeMoniker
-                      Id="60f5781b-ec99-4e90-8e8b-5f1600bd26b0"
-                      LastKnownName="Bridge::Pizza"
+                    <interfaceMoniker
+                      Id="5e74f3cd-4a42-412b-bfdb-3b10ffc9d0f3"
+                      LastKnownName="Pizzeria"
                       LastKnownLocation="Visitor.uml" />
                   </type_NamedElement>
                 </parameter>
@@ -4149,26 +4150,27 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="892e6790-de5e-419b-b48a-4616256a98cc"
-                  name="laden"
-                  direction="In"
+                  Id="97915920-03f3-488b-bb0b-ff42afa5d6d2"
+                  direction="Return"
                   isUnique="false">
                   <type_NamedElement>
-                    <undefinedTypeMoniker
-                      Id="4fd1a8b4-080c-46f9-81de-bf4b8d92767e"
-                      LastKnownName="Bridge::Pizzeria"
+                    <classMoniker
+                      Id="15c7408d-d808-471a-a2ba-ce21f7f03c2e"
+                      LastKnownName="Napoli"
                       LastKnownLocation="Visitor.uml" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="97915920-03f3-488b-bb0b-ff42afa5d6d2"
-                  direction="Return">
+                  Id="170ed692-dc7f-46a6-8fe4-d4c2ee42e7f9"
+                  name="laden"
+                  direction="In"
+                  isUnique="false">
                   <type_NamedElement>
-                    <undefinedTypeMoniker
-                      Id="f3ca4d8d-33d7-4dd0-a8f1-075219ef85d8"
-                      LastKnownName="Bridge::Napoli"
+                    <interfaceMoniker
+                      Id="5e74f3cd-4a42-412b-bfdb-3b10ffc9d0f3"
+                      LastKnownName="Pizzeria"
                       LastKnownLocation="Visitor.uml" />
                   </type_NamedElement>
                 </parameter>
@@ -4614,26 +4616,27 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="c05a883b-b880-487c-8ea6-d8dc376156e4"
-                  name="laden"
-                  direction="In"
+                  Id="06c5b5d1-8051-4273-aee2-34ffdb7c8300"
+                  direction="Return"
                   isUnique="false">
                   <type_NamedElement>
-                    <undefinedTypeMoniker
-                      Id="4fd1a8b4-080c-46f9-81de-bf4b8d92767e"
-                      LastKnownName="Bridge::Pizzeria"
+                    <classMoniker
+                      Id="dcb4729e-b153-4c6e-b0d2-5df7330f4df8"
+                      LastKnownName="Margherita"
                       LastKnownLocation="Visitor.uml" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
                 <parameter
-                  Id="06c5b5d1-8051-4273-aee2-34ffdb7c8300"
-                  direction="Return">
+                  Id="a1696f0c-601c-421c-854c-ce14b38a7c9b"
+                  name="laden"
+                  direction="In"
+                  isUnique="false">
                   <type_NamedElement>
-                    <undefinedTypeMoniker
-                      Id="c96c28b9-4232-439c-9574-6ce2449d8cdc"
-                      LastKnownName="Bridge::Margherita"
+                    <interfaceMoniker
+                      Id="5e74f3cd-4a42-412b-bfdb-3b10ffc9d0f3"
+                      LastKnownName="Pizzeria"
                       LastKnownLocation="Visitor.uml" />
                   </type_NamedElement>
                 </parameter>

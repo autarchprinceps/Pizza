@@ -72,20 +72,6 @@
       </propertyInstances>
     </stereotypeInstance>
   </appliedStereotypesInternal>
-  <profileInstances>
-    <packageHasProfileInstances Id="22c7ae1d-1b02-47c0-bc2e-1f450235a6ad">
-      <profileInstance Id="493289b2-47a9-413e-a561-04c05cc9f3fb" name="CSharpProfile">
-        <elementDefinition Id="22b70a76-e41c-493d-a363-2026692f6f1b" />
-      </profileInstance>
-      <elementDefinition Id="ec93cc75-3826-49b3-be12-77f7d525c2a8" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="36f27a9c-75a0-44c4-b3d8-7b8c0421c0f1">
-      <profileInstance Id="f7555aea-7895-4179-9569-d49e9d69f533" name="TextTemplateBindings">
-        <elementDefinition Id="0885a1a4-d2bc-421b-a6d1-9039b1f11430" />
-      </profileInstance>
-      <elementDefinition Id="def37dd7-ead3-4006-9c4c-8d0385ce88bb" />
-    </packageHasProfileInstances>
-  </profileInstances>
   <packagedElements>
     <packageHasNamedElement>
       <referencedType Id="6c4e622a-b93e-4601-b52b-f50ced4db011" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
@@ -168,28 +154,8 @@
       </referencedType>
     </packageHasNamedElement>
     <packageHasNamedElement>
-      <referencedType Id="8095e678-48cf-4414-9ca3-bb5de0a01d60" name="Bridge::Pizzeria" isAbstract="false" isLeaf="false" cachedFullName="Bridge::Pizzeria">
-        <elementDefinition Id="4fd1a8b4-080c-46f9-81de-bf4b8d92767e" />
-      </referencedType>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <referencedType Id="91f4b61f-5e0a-47b7-a086-cd9b540ab033" name="Bridge::Pizza" isAbstract="false" isLeaf="false" cachedFullName="Bridge::Pizza">
-        <elementDefinition Id="60f5781b-ec99-4e90-8e8b-5f1600bd26b0" />
-      </referencedType>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
       <referencedType Id="b2f11449-402e-4098-b0bb-58cf77476253" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
         <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
-      </referencedType>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <referencedType Id="e33ca7e7-b2fe-42d6-ad8f-b12c3e429ae8" name="Bridge::Napoli" isAbstract="false" isLeaf="false" cachedFullName="Bridge::Napoli">
-        <elementDefinition Id="f3ca4d8d-33d7-4dd0-a8f1-075219ef85d8" />
-      </referencedType>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <referencedType Id="072972d1-58e4-4b7c-a3be-2921594e6670" name="Bridge::Margherita" isAbstract="false" isLeaf="false" cachedFullName="Bridge::Margherita">
-        <elementDefinition Id="c96c28b9-4232-439c-9574-6ce2449d8cdc" />
       </referencedType>
     </packageHasNamedElement>
     <logicalClassDesignerModelHasTypes>
@@ -2909,18 +2875,18 @@
             <elementDefinition Id="f68507e7-4c49-4099-9c4e-4edcef1bb5ac" />
             <ownedParameters>
               <operationHasOwnedParameters>
-                <parameter Id="c1eec19e-ecc9-49d4-8faa-99d13e27bb9e" name="laden" direction="In" isUnique="false">
-                  <elementDefinition Id="deab5902-e5f8-4eaf-84ba-36f4b3a0065b" />
+                <parameter Id="cd0c5080-cca5-4ec0-8bb4-187e18132b72" direction="Return" isUnique="false">
+                  <elementDefinition Id="01dc0c34-8ddd-430d-9343-525a1b50475c" />
                   <type_NamedElement>
-                    <referencedTypeMoniker Id="8095e678-48cf-4414-9ca3-bb5de0a01d60" LastKnownName="Bridge::Pizzeria" />
+                    <referencedTypeMoniker Id="dabe04e7-f9f2-4a81-8181-02e8ab161c56" LastKnownName="Pizza" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
-                <parameter Id="cd0c5080-cca5-4ec0-8bb4-187e18132b72" direction="Return">
-                  <elementDefinition Id="01dc0c34-8ddd-430d-9343-525a1b50475c" />
+                <parameter Id="d993b78b-29f6-443a-979c-5748760cba7e" name="laden" direction="In" isUnique="false">
+                  <elementDefinition Id="62be1caa-20d4-4769-906f-d26ed64f7fb4" />
                   <type_NamedElement>
-                    <referencedTypeMoniker Id="91f4b61f-5e0a-47b7-a086-cd9b540ab033" LastKnownName="Bridge::Pizza" />
+                    <referencedTypeMoniker Id="4e03ee0a-5cbb-4a43-87f7-8db05796e5cd" LastKnownName="Pizzeria" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
@@ -3255,18 +3221,18 @@
             <elementDefinition Id="ae82fca5-9976-4052-ae57-060a770de5c6" />
             <ownedParameters>
               <operationHasOwnedParameters>
-                <parameter Id="3e068061-f70e-44db-b111-0a59ce11b8cc" name="laden" direction="In" isUnique="false">
-                  <elementDefinition Id="892e6790-de5e-419b-b48a-4616256a98cc" />
+                <parameter Id="0c766962-894d-461a-aca6-5b5f9cd64771" direction="Return" isUnique="false">
+                  <elementDefinition Id="97915920-03f3-488b-bb0b-ff42afa5d6d2" />
                   <type_NamedElement>
-                    <referencedTypeMoniker Id="8095e678-48cf-4414-9ca3-bb5de0a01d60" LastKnownName="Bridge::Pizzeria" />
+                    <referencedTypeMoniker Id="3b95db8f-0626-4487-9897-b89cd40cd97a" LastKnownName="Napoli" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
-                <parameter Id="0c766962-894d-461a-aca6-5b5f9cd64771" direction="Return">
-                  <elementDefinition Id="97915920-03f3-488b-bb0b-ff42afa5d6d2" />
+                <parameter Id="36765d84-efbb-4eaa-b0ee-4f606b643b6f" name="laden" direction="In" isUnique="false">
+                  <elementDefinition Id="170ed692-dc7f-46a6-8fe4-d4c2ee42e7f9" />
                   <type_NamedElement>
-                    <referencedTypeMoniker Id="e33ca7e7-b2fe-42d6-ad8f-b12c3e429ae8" LastKnownName="Bridge::Napoli" />
+                    <referencedTypeMoniker Id="4e03ee0a-5cbb-4a43-87f7-8db05796e5cd" LastKnownName="Pizzeria" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
@@ -3604,18 +3570,18 @@
             <elementDefinition Id="b1e92871-b42a-49da-b5ac-632a2491499f" />
             <ownedParameters>
               <operationHasOwnedParameters>
-                <parameter Id="1d1ca557-4189-4ec5-87a0-a24e413726e1" name="laden" direction="In" isUnique="false">
-                  <elementDefinition Id="c05a883b-b880-487c-8ea6-d8dc376156e4" />
+                <parameter Id="82c18400-935c-4a17-9451-693bf8729da4" direction="Return" isUnique="false">
+                  <elementDefinition Id="06c5b5d1-8051-4273-aee2-34ffdb7c8300" />
                   <type_NamedElement>
-                    <referencedTypeMoniker Id="8095e678-48cf-4414-9ca3-bb5de0a01d60" LastKnownName="Bridge::Pizzeria" />
+                    <referencedTypeMoniker Id="9a6bf12c-910d-4649-8dca-1ca2b4b4299b" LastKnownName="Margherita" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
-                <parameter Id="82c18400-935c-4a17-9451-693bf8729da4" direction="Return">
-                  <elementDefinition Id="06c5b5d1-8051-4273-aee2-34ffdb7c8300" />
+                <parameter Id="35efd528-4fd4-4a55-b9f6-38045d3798bb" name="laden" direction="In" isUnique="false">
+                  <elementDefinition Id="a1696f0c-601c-421c-854c-ce14b38a7c9b" />
                   <type_NamedElement>
-                    <referencedTypeMoniker Id="072972d1-58e4-4b7c-a3be-2921594e6670" LastKnownName="Bridge::Margherita" />
+                    <referencedTypeMoniker Id="4e03ee0a-5cbb-4a43-87f7-8db05796e5cd" LastKnownName="Pizzeria" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
@@ -4136,6 +4102,21 @@
         <elementDefinition Id="b8e29257-1cce-4756-bd16-574cbb2f7cb4" />
       </referencedType>
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="4e03ee0a-5cbb-4a43-87f7-8db05796e5cd" name="Pizzeria" isAbstract="false" isLeaf="false" cachedFullName="Visitor::Pizzeria">
+        <elementDefinition Id="5e74f3cd-4a42-412b-bfdb-3b10ffc9d0f3" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="3b95db8f-0626-4487-9897-b89cd40cd97a" name="Napoli" isAbstract="false" isLeaf="false" cachedFullName="Visitor::Napoli">
+        <elementDefinition Id="15c7408d-d808-471a-a2ba-ce21f7f03c2e" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="9a6bf12c-910d-4649-8dca-1ca2b4b4299b" name="Margherita" isAbstract="false" isLeaf="false" cachedFullName="Visitor::Margherita">
+        <elementDefinition Id="dcb4729e-b153-4c6e-b0d2-5df7330f4df8" />
+      </referencedType>
+    </packageHasNamedElement>
   </packagedElements>
   <package Id="bd3cf18c-2ef1-4f23-b2f9-82b2676a38e6" name="Visitor">
     <elementDefinition Id="8996ff64-490a-4424-bd56-5cbb3c8e5691" />
@@ -4151,6 +4132,18 @@
           <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
         </profileInstance>
         <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="22c7ae1d-1b02-47c0-bc2e-1f450235a6ad">
+        <profileInstance Id="493289b2-47a9-413e-a561-04c05cc9f3fb" name="CSharpProfile">
+          <elementDefinition Id="22b70a76-e41c-493d-a363-2026692f6f1b" />
+        </profileInstance>
+        <elementDefinition Id="ec93cc75-3826-49b3-be12-77f7d525c2a8" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="36f27a9c-75a0-44c4-b3d8-7b8c0421c0f1">
+        <profileInstance Id="f7555aea-7895-4179-9569-d49e9d69f533" name="TextTemplateBindings">
+          <elementDefinition Id="0885a1a4-d2bc-421b-a6d1-9039b1f11430" />
+        </profileInstance>
+        <elementDefinition Id="def37dd7-ead3-4006-9c4c-8d0385ce88bb" />
       </packageHasProfileInstances>
     </profileInstances>
   </package>
