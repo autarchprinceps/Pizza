@@ -5,15 +5,34 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 using System;
-using System.Collections.Generic;
+using System.Collections;
 using System.Linq;
 using System.Text;
 
 public class Mauro : Koch
 {
-	public virtual string visitRezept(Pizza pizza)
+	public virtual string[] visitRezept(Pizza pizza)
 	{
-		throw new System.NotImplementedException();
+        ArrayList rezept = new ArrayList();
+        if (pizza is Margherita)
+        {
+            rezept.Add(pizza.Pizzeria.teig());
+            rezept.Add(pizza.Pizzeria.tomatensoße());
+            rezept.Add(pizza.Pizzeria.tomatensoße());
+            rezept.Add(pizza.Pizzeria.käse());
+        }
+        else if (pizza is Napoli)
+        {
+            rezept.Add(pizza.Pizzeria.teig());
+            rezept.Add(pizza.Pizzeria.tomatensoße());
+            rezept.Add(pizza.Pizzeria.käse());
+            rezept.Add(pizza.Pizzeria.sardellen());
+            rezept.Add(pizza.Pizzeria.sardellen());
+        }
+        else
+            rezept.Add("Es exestiert kein Rezept");
+
+        return (string[])rezept.ToArray();
 	}
 
 }

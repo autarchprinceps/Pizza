@@ -11,7 +11,7 @@ using System.Text;
 
 public interface PizzaRezeptVisitor 
 {
-	void visit(Koch koch);
+	String[] visit(Koch koch);
 
 }
 

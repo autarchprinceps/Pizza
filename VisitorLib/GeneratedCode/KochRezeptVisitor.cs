@@ -11,7 +11,6 @@ using System.Text;
 
 public interface KochRezeptVisitor 
 {
-	string visitRezept(Pizza pizza);
-
+	string[] visitRezept(Pizza pizza);
 }
 

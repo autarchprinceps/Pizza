@@ -2760,7 +2760,17 @@
             <elementDefinition Id="035638b2-8cd4-48d4-8a89-250dbe8155fc" />
             <ownedParameters>
               <operationHasOwnedParameters>
-                <parameter Id="10e3d894-61bd-447a-866e-95e7b45cff9d" direction="Return">
+                <parameter Id="10e3d894-61bd-447a-866e-95e7b45cff9d" direction="Return" isUnique="false">
+                  <lowerValueInternal>
+                    <literalString Id="2029f8ef-81ad-4feb-8e2b-59538d22888d" name="Lower" value="*">
+                      <elementDefinition Id="bf2e4002-8046-4d5a-bb38-ed9fe5e3c7b7" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="1c7f24ff-9a30-449c-be23-f0779d0cf020" name="Upper" value="*">
+                      <elementDefinition Id="fa651582-a893-446a-8798-b0fb40b2ac47" />
+                    </literalString>
+                  </upperValueInternal>
                   <elementDefinition Id="c890e915-5b4b-430b-9453-a9d2b956e4ea" />
                   <type_NamedElement>
                     <referencedTypeMoniker Id="fe32c83f-4596-430f-b201-ba81e54aa8f4" LastKnownName="String" />
@@ -3166,6 +3176,16 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter Id="41b211fd-fb73-475e-8b4e-0de2f8e7cee0" direction="Return" isUnique="false">
+                  <lowerValueInternal>
+                    <literalString Id="5a9a90e4-16b6-4c4d-bc3e-d23155125319" name="Lower" value="*">
+                      <elementDefinition Id="c8fb9cd0-78f5-42a6-9987-245e79cc06be" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="177d1c0e-a65d-4249-a60d-e01f40a675e1" name="Upper" value="*">
+                      <elementDefinition Id="3340687f-029d-4ad6-b64d-b1be5cfdc812" />
+                    </literalString>
+                  </upperValueInternal>
                   <elementDefinition Id="73bb1579-7130-4e76-a2c7-1cf1db97403c" />
                   <type_NamedElement>
                     <referencedTypeMoniker Id="fe32c83f-4596-430f-b201-ba81e54aa8f4" LastKnownName="String" />
@@ -3512,6 +3532,16 @@
             <ownedParameters>
               <operationHasOwnedParameters>
                 <parameter Id="113c2f97-0e5e-459b-8b00-151f69e5d27a" direction="Return" isUnique="false">
+                  <lowerValueInternal>
+                    <literalString Id="20efe3cc-cd9e-4e65-bed5-5abb150f5df6" name="Lower" value="*">
+                      <elementDefinition Id="c3933e49-5fc7-41dd-83be-e8b7de7f848c" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="923afcfb-b446-462c-ad4f-2d0bee177874" name="Upper" value="*">
+                      <elementDefinition Id="21af48a4-1ab0-4644-bd16-bf207de88aea" />
+                    </literalString>
+                  </upperValueInternal>
                   <elementDefinition Id="753631b9-8a9c-4a1d-9613-db4e6551cab1" />
                   <type_NamedElement>
                     <referencedTypeMoniker Id="fe32c83f-4596-430f-b201-ba81e54aa8f4" LastKnownName="String" />
@@ -3792,18 +3822,28 @@
             <elementDefinition Id="6fcc07ca-d09b-4105-a8ab-dd298dda37a6" />
             <ownedParameters>
               <operationHasOwnedParameters>
-                <parameter Id="55125e2b-7307-46b5-8d35-0c5ed908b1ac" name="pizza" direction="In" isUnique="false">
-                  <elementDefinition Id="13049541-f209-40cd-958b-edb07eac1d27" />
+                <parameter Id="f2871d57-641e-4ea6-bcc5-35f51e5b33d8" direction="Return" isUnique="false">
+                  <lowerValueInternal>
+                    <literalString Id="fca4f7b4-0867-435b-a1e0-6dc0c95b2fbd" name="Lower" value="*">
+                      <elementDefinition Id="5207019c-248d-4821-9954-afda3e830211" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="4a87946f-1cf2-4a8f-bae9-4a9bc9831d50" name="Upper" value="*">
+                      <elementDefinition Id="8142f92e-59d2-433d-9d5c-ae00f2d69d26" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="751311c9-1e5a-42ff-babb-2ee81b54a67f" />
                   <type_NamedElement>
-                    <referencedTypeMoniker Id="dabe04e7-f9f2-4a81-8181-02e8ab161c56" LastKnownName="Pizza" />
+                    <referencedTypeMoniker Id="6c4e622a-b93e-4601-b52b-f50ced4db011" LastKnownName="String" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
-                <parameter Id="f2871d57-641e-4ea6-bcc5-35f51e5b33d8" direction="Return" isUnique="false">
-                  <elementDefinition Id="751311c9-1e5a-42ff-babb-2ee81b54a67f" />
+                <parameter Id="e614b2d7-ddf6-4d32-97d3-3911aefbbef4" name="pizza" direction="In" isUnique="false">
+                  <elementDefinition Id="380e67c2-74bb-4ab7-8318-22053d2d851a" />
                   <type_NamedElement>
-                    <referencedTypeMoniker Id="6c4e622a-b93e-4601-b52b-f50ced4db011" LastKnownName="String" />
+                    <referencedTypeMoniker Id="dabe04e7-f9f2-4a81-8181-02e8ab161c56" LastKnownName="Pizza" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
@@ -3906,18 +3946,28 @@
             <elementDefinition Id="24336ed8-0f1b-49ab-ae4e-e84b01066c48" />
             <ownedParameters>
               <operationHasOwnedParameters>
-                <parameter Id="1b09cd10-8e50-44c7-a662-d9f6aea8b783" name="pizza" direction="In" isUnique="false">
-                  <elementDefinition Id="ce06d01c-4762-4e03-bbae-d46d315d3976" />
+                <parameter Id="7d65238c-2e20-4994-8358-ac17da66cb1a" direction="Return" isUnique="false">
+                  <lowerValueInternal>
+                    <literalString Id="77311f41-862d-4bbb-9120-22a672bb6007" name="Lower" value="*">
+                      <elementDefinition Id="429cac9a-b195-4f69-bc35-ba52cb5b9044" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="18bb2d14-3ab4-4d9e-885a-23335257a295" name="Upper" value="*">
+                      <elementDefinition Id="0d33e87d-171e-4792-b612-e0935bdf6ae7" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="3d96bb3d-5c13-4b6a-9df6-a4c497abc2a5" />
                   <type_NamedElement>
-                    <referencedTypeMoniker Id="dabe04e7-f9f2-4a81-8181-02e8ab161c56" LastKnownName="Pizza" />
+                    <referencedTypeMoniker Id="6c4e622a-b93e-4601-b52b-f50ced4db011" LastKnownName="String" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
-                <parameter Id="7d65238c-2e20-4994-8358-ac17da66cb1a" direction="Return" isUnique="false">
-                  <elementDefinition Id="3d96bb3d-5c13-4b6a-9df6-a4c497abc2a5" />
+                <parameter Id="89412af6-585d-4a6b-9289-bfafe3f27f8f" name="pizza" direction="In" isUnique="false">
+                  <elementDefinition Id="cb8f1c7b-13c5-45c9-ac6b-e54737ed2270" />
                   <type_NamedElement>
-                    <referencedTypeMoniker Id="6c4e622a-b93e-4601-b52b-f50ced4db011" LastKnownName="String" />
+                    <referencedTypeMoniker Id="dabe04e7-f9f2-4a81-8181-02e8ab161c56" LastKnownName="Pizza" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
@@ -4020,18 +4070,28 @@
             <elementDefinition Id="9d9c4a35-d364-4ef6-aa26-1ec71d6ead48" />
             <ownedParameters>
               <operationHasOwnedParameters>
-                <parameter Id="759775c6-22cb-412a-aa7d-9a1b306328c0" name="pizza" direction="In" isUnique="false">
-                  <elementDefinition Id="38e3e1e5-d030-454e-ac23-57c40d2109bc" />
+                <parameter Id="364352d3-b6b3-4a31-951a-2db44b6fbd84" direction="Return" isUnique="false">
+                  <lowerValueInternal>
+                    <literalString Id="553ff0e7-6d2e-4fd8-8213-70b9957a4e97" name="Lower" value="*">
+                      <elementDefinition Id="74a46a7e-559d-4d07-aa58-e0d5b51c38b7" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="0c1d2ee1-9c8e-48a7-beaa-5d2b7114340e" name="Upper" value="*">
+                      <elementDefinition Id="13c099a0-e8ca-4e92-8ab6-0289cf65ae4e" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="25a45848-a95b-41d2-9fdc-b6f98967b0af" />
                   <type_NamedElement>
-                    <referencedTypeMoniker Id="dabe04e7-f9f2-4a81-8181-02e8ab161c56" LastKnownName="Pizza" />
+                    <referencedTypeMoniker Id="6c4e622a-b93e-4601-b52b-f50ced4db011" LastKnownName="String" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
               <operationHasOwnedParameters>
-                <parameter Id="364352d3-b6b3-4a31-951a-2db44b6fbd84" direction="Return" isUnique="false">
-                  <elementDefinition Id="25a45848-a95b-41d2-9fdc-b6f98967b0af" />
+                <parameter Id="44f5a7ce-aa89-48e1-8953-597ce4b7ff7f" name="pizza" direction="In" isUnique="false">
+                  <elementDefinition Id="d8407895-7c03-4aa6-9df8-b5efd7ebd017" />
                   <type_NamedElement>
-                    <referencedTypeMoniker Id="6c4e622a-b93e-4601-b52b-f50ced4db011" LastKnownName="String" />
+                    <referencedTypeMoniker Id="dabe04e7-f9f2-4a81-8181-02e8ab161c56" LastKnownName="Pizza" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>

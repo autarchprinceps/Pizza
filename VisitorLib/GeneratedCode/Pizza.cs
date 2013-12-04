@@ -17,16 +17,16 @@ public abstract class Pizza
 		set;
 	}
 
-	public abstract string rezept();
+	public abstract string[] rezept();
 
 	public abstract int kosten();
 
-	public virtual Bridge::Pizza constructor(Bridge::Pizzeria laden)
+	public virtual Pizza (Pizzeria laden)
 	{
-		throw new System.NotImplementedException();
-	}
+        this.Pizzeria = laden;
+    }
 
-	public virtual string accept(KochRezeptVisitor visitor)
+	public virtual string[] accept(KochRezeptVisitor visitor)
 	{
 		throw new System.NotImplementedException();
 	}

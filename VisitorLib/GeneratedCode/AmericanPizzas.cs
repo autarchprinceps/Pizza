@@ -11,75 +11,75 @@ using System.Text;
 
 public class AmericanPizzas : Pizzeria
 {
-	public virtual string teig()
-	{
-		throw new System.NotImplementedException();
-	}
+    public virtual string teig()
+    {
+        return "Dicker, luftiger Teig";
+    }
 
-	public virtual int teigPreis()
-	{
-		throw new System.NotImplementedException();
-	}
+    public virtual int teigPreis()
+    {
+        return 3;
+    }
 
-	public virtual string tomatensoße()
-	{
-		throw new System.NotImplementedException();
-	}
+    public virtual string tomatensoße()
+    {
+        return "Ganz normale Tomatensoße";
+    }
 
-	public virtual int tomatensoßePreis()
-	{
-		throw new System.NotImplementedException();
-	}
+    public virtual int tomatensoßePreis()
+    {
+        return 1;
+    }
 
-	public virtual string käse()
-	{
-		throw new System.NotImplementedException();
-	}
+    public virtual string käse()
+    {
+        return "Dicke Schicht stark schmelzendem Käses";
+    }
 
-	public virtual string salami()
-	{
-		throw new System.NotImplementedException();
-	}
+    public virtual int käsePreis()
+    {
+        return 2;
+    }
 
-	public virtual int käsePreis()
-	{
-		throw new System.NotImplementedException();
-	}
+    public virtual string salami()
+    {
+        return "Einfach etwas Salami";
+    }
 
-	public virtual int salamiPreis()
-	{
-		throw new System.NotImplementedException();
-	}
+    public virtual int salamiPreis()
+    {
+        return 1;
+    }
 
-	public virtual string schinken()
-	{
-		throw new System.NotImplementedException();
-	}
+    public virtual string schinken()
+    {
+        return "Einfach etwas Schinken";
+    }
 
-	public virtual int schinkenPreis()
-	{
-		throw new System.NotImplementedException();
-	}
+    public virtual int schinkenPreis()
+    {
+        return 1;
+    }
 
-	public virtual string paprika()
-	{
-		throw new System.NotImplementedException();
-	}
+    public virtual string paprika()
+    {
+        return "Nur das minimal nötigste an Paprika";
+    }
 
-	public virtual int paprikaPreis()
-	{
-		throw new System.NotImplementedException();
-	}
+    public virtual int paprikaPreis()
+    {
+        return 1;
+    }
 
-	public virtual string sardellen()
-	{
-		throw new System.NotImplementedException();
-	}
+    public virtual string sardellen()
+    {
+        return "Etwas Fisch";
+    }
 
-	public virtual int sardellenPreis()
-	{
-		throw new System.NotImplementedException();
-	}
+    public virtual int sardellenPreis()
+    {
+        return 2;
+    }
 
 }
 

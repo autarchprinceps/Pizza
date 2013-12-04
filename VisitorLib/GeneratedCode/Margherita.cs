@@ -11,24 +11,26 @@ using System.Text;
 
 public class Margherita : Pizza
 {
-	public override int kosten()
-	{
-		throw new System.NotImplementedException();
-	}
+    public override int kosten()
+    {
+        return this.Pizzeria.teigPreis() + this.Pizzeria.tomatensoßePreis() + this.Pizzeria.käsePreis();
+    }
 
-	public override string rezept()
-	{
-		throw new System.NotImplementedException();
-	}
+    public override string[] rezept()
+    {
+        string[] result = { this.Pizzeria.teig(), this.Pizzeria.tomatensoße(), this.Pizzeria.käse() };
+        return result;
+    }
 
-	public virtual Bridge::Margherita constructor(Bridge::Pizzeria laden)
-	{
-		throw new System.NotImplementedException();
-	}
+    public Margherita(Pizzeria laden)
+        : base(laden)
+    {
+        // TODO FIXME kann ich den Methodenrumpf irgendwie wegblenden
+    }
 
-	public override string accept(KochRezeptVisitor visitor)
+	public override string[] accept(KochRezeptVisitor visitor)
 	{
-        return visitor.visit(this);
+        return visitor.visitRezept(this);
     }
 
 	public override int durchmesser()

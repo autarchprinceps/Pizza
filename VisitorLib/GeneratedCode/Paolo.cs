@@ -5,22 +5,33 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 using System;
-using System.Collections.Generic;
+using System.Collections;
 using System.Linq;
 using System.Text;
 
 public class Paolo : Koch
 {
-	public virtual string visitRezept(Pizza pizza)
-	{
+	public virtual string[] visitRezept(Pizza pizza)
+    {
+        ArrayList rezept = new ArrayList();
         if (pizza is Margherita)
-            return "du brauchen mehr KÄSE";
+        {
+            rezept.Add(pizza.Pizzeria.teig());
+            rezept.Add(pizza.Pizzeria.käse());
+            rezept.Add(pizza.Pizzeria.tomatensoße());
+            rezept.Add(pizza.Pizzeria.käse());
+        }
         else if (pizza is Napoli)
-            return "FLeisch für die Veganer und FIsch für die Vegetarier";
-        else if (pizza is Koch)
-            return "Ceterum autem censeo Carthaginem esse delendam";
+        {
+            rezept.Add(pizza.Pizzeria.teig());
+            rezept.Add(pizza.Pizzeria.tomatensoße());
+            rezept.Add(pizza.Pizzeria.käse());
+            rezept.Add(pizza.Pizzeria.sardellen());
+        }
         else
-            return "Kenn ich nicht";
+            rezept.Add("Es exestiert kein Rezept");
+
+        return (string[])rezept.ToArray();
     }
 
 }
