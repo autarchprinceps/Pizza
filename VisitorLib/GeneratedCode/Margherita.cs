@@ -35,7 +35,7 @@ public class Margherita : Pizza
 
 	public override int durchmesser()
 	{
-		throw new System.NotImplementedException();
+        return 3;
 	}
 
 }
